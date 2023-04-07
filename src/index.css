@@ -1,0 +1,301 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Satoshi';
+    font-family: 'Satoshi';
+    background-color: #fafafb;
+
+}
+
+.mycontainer {
+    width: 90%;
+    background-color: #fafafb;
+}
+
+/* @media (min-width: 640px) {
+    .mycontainer {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .mycontainer {
+        max-width: 768px;
+    }
+}
+@media (min-width: 1024px) {
+    .mycontainer {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+    .mycontainer {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+    .mycontainer {
+        max-width: 1536px;
+    }
+} */
+
+
+/* .statisiques */
+
+@media (min-width: 640px) {
+    .statisiques{
+        flex-direction: column;
+        
+    }
+}
+@media (min-width: 768px) {
+    .statisiques {
+        flex-direction: column;
+    
+    }
+}
+@media (min-width: 1024px) {
+    .statisiques {
+        flex-direction: row;
+
+    }
+}
+@media (min-width: 1280px) {
+    .statisiques {
+        flex-direction: row;
+    }
+}
+@media (min-width: 1536px) {
+    .statisiques {
+        flex-direction: row;
+        
+    }
+}
+
+/* statisique1 */
+
+@media (min-width: 640px) {
+    .statisique1{
+        width: 80%;
+       
+     /* margin-left: 10%; */
+
+    }
+}
+@media (min-width: 768px) {
+    .statisique1 {
+        width: 80%;
+        /* margin-left: 10%; */
+       
+        
+    }
+}
+@media (min-width: 1024px) {
+    .statisique1 {
+        width: 20%;
+  
+    }
+}
+@media (min-width: 1280px) {
+    .statisiques1 {
+        width: 20%;
+   
+    }
+}
+@media (min-width: 1536px) {
+    .statisique1 {
+       width: 20%;
+       
+    }
+}
+
+
+/* @media (min-width: 640px) {
+    .statisique1{
+      
+        width: 50%
+    }
+}
+
+@media (min-width: 768px) {
+    .statisique1 {
+        
+        width: 50%
+       
+        
+    }
+} */
+
+/* -----header-- */
+.header{
+    background: linear-gradient(170.05deg, rgba(247, 69, 69, 0.1) -65.14%, rgba(51, 132, 245, 0.1) 174.73%);
+}
+
+.drop{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  
+    
+    
+    color: #2A3B51;
+}
+.frensh{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #839BBB;
+}
+.button{
+    position: absolute;
+left: 99.33%;
+right: 0%;
+top: 76.19%;
+bottom: 15.26%;
+
+border: 1.5px solid #839BBB;
+}
+/* ------ */
+
+/* -----------2 bar search */
+.bar{
+height: 60px;
+left: 294px;
+top: 400px;
+
+background: #FFFFFF;
+border: 1px solid rgba(179, 193, 213, 0.4);
+border-radius: 10px;
+}
+.point{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #839BBB;
+}
+/* ----------------------- */
+
+.paragraph{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 51px;
+    text-align: center;
+    
+    color: #2A3B51;
+}
+.searchBar {
+background: linear-gradient(152.26deg, #F74545 0%, #3384F5 101.41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-family: 'satoshi';
+font-weight: 800;
+font-size: 34px;
+line-height: 46px;
+
+}
+/* -------stastique------- */
+.number {
+    font-family: 'satoshi';
+    background: linear-gradient(152.26deg, #F74545 0%, #3384F5 101.41%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+font-weight: 700;
+
+
+}
+.coment{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+}
+
+.statisique1{
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-image: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+}
+
+.jetons {
+    border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+}
+/* -------partie jetons */
+
+.symbol{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #2C3131;
+}
+
+.price{
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: rgba(44, 49, 49, 0.8);
+}
+.holders{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: rgba(44, 49, 49, 0.8);
+}
+.capitalize{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+/* text-align: center; */
+color: #2A3B51;
+}
+.name{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #2C3131;
+}
+/* -----nft */
+.nft1{
+    box-sizing: border-box;
+    border: 2px solid ;
+    border-radius: 20px;
+    border-color: rgb(50, 11, 165);
+}
+
+.icon5 {
+    background: rgba(160, 163, 189, 0.8);
+}
+
+.collection {
+    border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+}
+
+.carrousel{
+    margin-left: -10%;
+}
