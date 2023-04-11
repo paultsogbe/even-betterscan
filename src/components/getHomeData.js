@@ -23,7 +23,13 @@ export function getHomeData() {
                 {
                     imgUrl: "https://i.seadn.io/gae/duwTKiK5MT5ZD-IgTX_gtScj20XK6yo7Sp3dbexJZRhB6pIM6EUg4tAyUFy1yWnmY8PmcITj2vFTK1RkNGcTSWfquR3qQ2M7PgG-Uw?auto=format&w=256",
                     name: "BAD MONKEY APES OFFICIAL",
-                    floorPrice: 3500000000000000000, // WEI
+                    floorPrice: 7100000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/10579216d77a7580dd8cf08db689324f.jpg?auto=format&w=1000",
+                    name: "UncleSeize",
+                    floorPrice: 63900000000000000000, // WEI
                     currency: "ETH",
                 },
                 {

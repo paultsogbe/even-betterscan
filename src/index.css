@@ -110,23 +110,6 @@ body {
     }
 }
 
-
-/* @media (min-width: 640px) {
-    .statisique1{
-      
-        width: 50%
-    }
-}
-
-@media (min-width: 768px) {
-    .statisique1 {
-        
-        width: 50%
-       
-        
-    }
-} */
-
 /* -----header-- */
 .header{
     background: linear-gradient(170.05deg, rgba(247, 69, 69, 0.1) -65.14%, rgba(51, 132, 245, 0.1) 174.73%);
