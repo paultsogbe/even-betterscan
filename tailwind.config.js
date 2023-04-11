@@ -7,6 +7,8 @@ module.exports = {
                 background1: "#fafafb",
                 background2: "#f0eaf0",
                 background3: "#afbfd3",
+                background4:
+                    "linear-gradient(170.05deg, rgba(247, 69, 69, 0.1) -65.14%, rgba(51, 132, 245, 0.1) 174.73%)",
 
                 bordercolor: "#e5e7ea",
                 // bordercolor2:,

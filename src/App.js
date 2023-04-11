@@ -65,16 +65,10 @@ function App() {
 
     return (
         <>
-            {/* Header */}
             <Header />
-
             {/* ---------------------------------------------------- */}
-
             <div className=" mx-auto  bg-background1 mycontainer ">
-                {/* Header 2 */}
                 <Header2 />
-
-                {/* Search bar */}
                 <SearchBar />
 
                 <div className="flex justify-around statisiques">
@@ -116,10 +110,8 @@ function App() {
                 </div>
 
                 <div className="flex justify-between items-center content-center border-b pb-4 mb-4 collection">
-                    {/* <div className="w-full border-b pb-4 mb-4"> */}
                     <p>Collection NFT</p>
                     <DropDown name="Tendances" />
-                    {/* </div> */}
                 </div>
                 <div className="flex justify-between mt-5"></div>
                 <ScrollCarousel data={data} />

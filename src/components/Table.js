@@ -93,14 +93,14 @@ function Table(props) {
 
             {/* ------btn1 adroite */}
             <div className="mt-5 flex justify-end">
-                {/* cet boutton permet d'aller à prémière page */}
+                {/* ce boutton permet d'aller à prémière page */}
                 <button
                     onClick={() => setCurrentPage(1)}
                     className="mr-5 bg-background2 py-2 px-2 rounded hover:bg-pink-500 hover:text-white"
                 >
                     Première Page
                 </button>
-                {/* cet permet d'aller à page précédante */}
+                {/* cette partie permet d'aller à page précédante */}
                 <button
                     onClick={() => handlePageChange(currentPage - 1)}
                     disabled={currentPage === 1}

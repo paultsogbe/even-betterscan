@@ -32,7 +32,7 @@ function ScrollCarousel(props) {
     function handlePageChange(newPage) {
         setCurrentPage(newPage);
     }
-    // ----------------chunk-----------------------
+    // -----------fin-----chunk-----------------------
 
     return (
         <div className="flex flex-col bg-background1  m-auto p-auto mb-20 ">
@@ -49,7 +49,7 @@ function ScrollCarousel(props) {
                             style={{ color: "#ec4899" }}
                         />
                     </button>
-                    {/* --------- */}
+                    {/* {props.data.map}--------- */}
                     {currentResults.map((el, i) => (
                         <div className="inline-block px-3" key={i}>
                             <div className="w-64 h-80 max-w-xs overflow-hidden">
@@ -65,10 +65,10 @@ function ScrollCarousel(props) {
                     <button
                         onClick={() => handlePageChange(currentPage + 1)}
                         disabled={indexOfLastResult >= props.data.length}
-                        className="rounded text-6xl"
+                        className="rounded text-6xl button-carrousel"
                     >
                         <FontAwesomeIcon
-                            icon=" fa-solid fa-circle-chevron-right"
+                            icon="  fa-solid fa-circle-chevron-right"
                             style={{ color: "#ec4899" }}
                         />
                     </button>

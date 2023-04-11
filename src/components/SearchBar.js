@@ -9,8 +9,6 @@ function SearchBar() {
                 Recherchez une <span className="searchBar">transaction </span>
                 dans la Blockchain Ethereum{" "}
             </h1>
-            {/* <img className=" logo1 h-6" src={logo1} alt="logo1" /> */}
-            {/* </div> */}
 
             <div className="flex border border-purple-200 rounded w-3/5 bar">
                 <input

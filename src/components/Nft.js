@@ -12,9 +12,6 @@ function Nft(props) {
                         className="w-full h-64 mb-5 rounded-lg nft1 "
                         src={props.image}
                         alt="nft"
-                        // src={props.icon5} alt="icon5"
-
-                        // <img className="  h-6 mr-4" src={icon5} alt="icon5" />
                     />
                     <img
                         className=" absolute top-5 right-3 h-6 mr-4 icon5 rounded-2xl"
