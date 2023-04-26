@@ -135,6 +135,24 @@ export function getHomeData() {
                     currency: "ETH",
                 },
                 {
+                    imgUrl: "https://i.seadn.io/gcs/files/dedd567b6a97259aa6444777939a7d41.jpg?auto=format&w=256",
+                    name: "Omnimorphs",
+                    floorPrice: 249000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/mWWlvYxQhV36qyVoDfBIHd70qc_wPQ-cnCvRTllceCgidhLUHwQDbzfkDrGBGyr5WII5p2BXmxUYohGwZYu6YQmGDppNhSjjGN7F6g?auto=format&w=256",
+                    name: "WORK PLAY EAT & PRAY - An Ode to Asia",
+                    floorPrice: 7000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/2c011e8ea2da88a624e4b73bae8beb8e.gif?auto=format&w=256",
+                    name: "Rorschach's",
+                    floorPrice: 8000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
                     imgUrl: "https://i.seadn.io/gae/Jngha-aFUJh72GycQvzetxPcV-Q459pbX_yaE7Te9lHLCrbNDgeuCARD079Al7VhHYnN2nwueDscSrdTasxRD8RPKVn73rDJrQSgIQ?auto=format&w=1000",
                     name: "Girl with a box",
                     floorPrice: 1000000000000000, // WEI
@@ -152,10 +170,11 @@ export function getHomeData() {
                     floorPrice: 1000000000000000, // WEI
                     currency: "ETH",
                 },
+
                 {
-                    imgUrl: "https://i.seadn.io/gcs/files/e05d1e09349d7fb36c7970e7ac0e054c.png?auto=format&w=256",
-                    name: "MG Land",
-                    floorPrice: 385000000000000000, // WEI
+                    imgUrl: "https://i.seadn.io/gcs/files/f3af0df69192f0fc8fbaf3996274b248.png?auto=format&w=256",
+                    name: " Painted women AI",
+                    floorPrice: 100000000000000000, // WEI
                     currency: "ETH",
                 },
                 {
@@ -186,6 +205,12 @@ export function getHomeData() {
                     imgUrl: "https://i.seadn.io/gae/d784iHHbqQFVH1XYD6HoT4u3y_Fsu_9FZUltWjnOzoYv7qqB5dLUqpGyHBd8Gq3h4mykK5Enj8pxqOUorgD2PfIWcVj9ugvu8l0?auto=format&w=256",
                     name: "Meebits",
                     floorPrice: 345000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/e05d1e09349d7fb36c7970e7ac0e054c.png?auto=format&w=256",
+                    name: "MG Land",
+                    floorPrice: 385000000000000000, // WEI
                     currency: "ETH",
                 },
                 {
@@ -356,6 +381,7 @@ export function getHomeData() {
                     floorPrice: 4000000000000000, // WEI
                     currency: "ETH",
                 },
+
                 {
                     imgUrl: "https://i.seadn.io/gcs/files/dc6f0c6b501390e430c509c80b92a5f7.gif?auto=format&w=256",
                     name: "MadBalls",

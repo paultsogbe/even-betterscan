@@ -79,14 +79,14 @@ body {
     .statisique1{
         width: 80%;
        
-     /* margin-left: 10%; */
+   
 
     }
 }
 @media (min-width: 768px) {
     .statisique1 {
         width: 80%;
-        /* margin-left: 10%; */
+       
        
         
     }
@@ -109,6 +109,8 @@ body {
        
     }
 }
+
+
 
 /* -----header-- */
 .header{
@@ -210,10 +212,20 @@ text-align: center;
 }
 
 .statisique1{
-    border: 1px solid ;
-    box-sizing: border-box;
+    /* border: 1px solid ;
+    box-sizing: border-box; */
     border-radius: 10px;
-    border-image: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+    padding: 1px;
+    /* border-image: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ; */
+    background: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2));
+}
+.box1{
+    border-radius: 10px;
+    background: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 2px;
 }
 
 .jetons {
