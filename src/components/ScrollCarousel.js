@@ -159,10 +159,10 @@
 
 // export default ScrollCarousel;
 
-// ---------------------4 em Option---------------
+// ---------------------3 em Option---------------
 import React, { useState, useRef, useCallback } from "react";
 import Nft from "./Nft";
-import { getHomeData } from "./getHomeData";
+// import { getHomeData } from "./getHomeData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ScrollCarousel(props) {
@@ -191,7 +191,7 @@ function ScrollCarousel(props) {
     const loadMoreResults = () => {
         setLoading(true);
         setTimeout(() => {
-            setResults([...results, ...getHomeData()]);
+            setResults([...results, ...props()]);
             setLoading(false);
         }, 1000);
     };
