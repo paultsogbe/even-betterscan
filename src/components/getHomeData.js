@@ -10,8 +10,8 @@ export function getHomeData() {
             language: "fr-FR",
         },
         stats: {
-            ethPrice: "1600 $", // in $
-            averageTransactionFee: "0.5 $", // in $ cents
+            ethPrice: "1 600 $", // in $
+            averageTransactionFee: "0. 5 $", // in $ cents
             gazPrice: " (15gwei)", // in GWEI
             lastBlock: "1 650 500",
             lastBlockTime: "2023-02-22T11:00:33.793Z",

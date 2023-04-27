@@ -12,6 +12,7 @@ import Header from "./components/Header";
 import Header2 from "./components/Header2";
 import SearchBar from "./components/SearchBar";
 import Statistique from "./components/Statistique";
+import Statistique2 from "./components/Statistique2";
 import Nft from "./components/Nft";
 import ScrollCarousel from "./components/ScrollCarousel";
 import { getHomeData } from "./components/getHomeData";
@@ -73,7 +74,7 @@ function App() {
 
                 <div className="flex justify-around statisiques">
                     {stat && (
-                        <Statistique
+                        <Statistique2
                             text="Prix de l'ETH"
                             number={stat.ethPrice}
                             image={icon}
@@ -110,7 +111,7 @@ function App() {
                 </div>
 
                 <div className="flex justify-between items-center content-center border-b pb-4 mb-4 collection">
-                    <p>Collection NFT</p>
+                    <p className="font-bold text-xl">Collection NFT</p>
                     <DropDown name="Tendances" />
                 </div>
                 <div className="flex justify-between mt-5"></div>

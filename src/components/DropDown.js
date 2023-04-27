@@ -49,7 +49,7 @@ function DropDown(props) {
                                         active
                                             ? "bg-gray-100 text-gray-900"
                                             : "text-gray-700",
-                                        "block px-4 py-2 text-sm"
+                                        "block px-4 py-2 text-sm font-medium"
                                     )}
                                 >
                                     Name
@@ -65,7 +65,7 @@ function DropDown(props) {
                                         active
                                             ? "bg-gray-100 text-gray-900"
                                             : "text-gray-700",
-                                        "block px-4 py-2 text-sm"
+                                        "block px-4 py-2 text-sm font-medium"
                                     )}
                                 >
                                     LastPrice
@@ -82,7 +82,7 @@ function DropDown(props) {
                                         active
                                             ? "bg-gray-100 text-gray-900"
                                             : "text-gray-700",
-                                        "block px-4 py-2 text-sm"
+                                        "block px-4 py-2 text-sm font-medium"
                                     )}
                                 >
                                     Holders
@@ -99,7 +99,7 @@ function DropDown(props) {
                                         active
                                             ? "bg-gray-100 text-gray-900"
                                             : "text-gray-700",
-                                        "block px-4 py-2 text-sm"
+                                        "block px-4 py-2 text-sm font-medium"
                                     )}
                                 >
                                     Capitalization
