@@ -4602,6 +4602,7 @@ export function getHomeData() {
                     currency: "ETH",
                 },
             ],
+            // ---------OPTION 1-----------
 
             allTime: [
                 {
@@ -5781,8 +5782,197 @@ export function getHomeData() {
                     img: "https://s2.coinmarketcap.com/static/img/coins/64x64/2405.png",
                 },
             ],
+            // -------------OPTION 2-------------
 
-            // ------------------------------------
+            allTime: [
+                {
+                    imgUrl: "https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&w=256",
+                    name: "CryptoPunks",
+                    floorPrice: null, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&w=256",
+                    name: "Bored Ape Yacht Club",
+                    floorPrice: 775000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&w=256",
+                    name: "Mutant Ape Yacht Club",
+                    floorPrice: 16199000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&w=256",
+                    name: "Otherdeed for Otherside",
+                    floorPrice: 2000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/H8jOCJuQokNqGBpkBN5wk1oZwO7LM8bNnrHCaekV2nKjnCqw6UB5oaH8XyNeBDj6bA_n1mjejzhFQUP3O1NfjFLHr3FOaeHcTOOT?auto=format&w=256",
+                    name: "Azuki",
+                    floorPrice: 1515000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/XN0XuD8Uh3jyRWNtPTFeXJg_ht8m5ofDx6aHklOiy4amhFuWUa0JaR6It49AH8tlnYS386Q0TW_-Lmedn0UET_ko1a3CbJGeu5iHMg?auto=format&w=256",
+                    name: "CLONE X - X TAKASHI MURAKAMI",
+                    floorPrice: 15243000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/H-eyNE1MwL5ohL-tCfn_Xa1Sl9M9B4612tLYeUlQubzt4ewhr4huJIR5OLuyO3Z5PpJFSwdm7rq-TikAh7f5eUw338A2cy6HRH75?auto=format&w=256",
+                    name: "Moonbirds",
+                    floorPrice: 65555000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ?auto=format&w=256",
+                    name: "Doodles",
+                    floorPrice: 565000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/c4dfc6be4d9c5d4f073de2efe181416a.jpg?auto=format&w=256",
+                    name: "Bored Ape Kennel Club",
+                    floorPrice: 77000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/SXH8tW1siikB80rwCRnjm1a5xM_MwTg9Xl9Db6mioIk9HIlDM09pVoSR7GKJgS6ulSUpgW9BDtMk_ePX_NKgO9A?auto=format&w=256",
+                    name: "The Sandbox",
+                    floorPrice: 843000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/hbe_-yi5K_UjPXiGj8IlxsR6ZMOy9AZs17vcCLIEbvS5Q7VaPCM7JwYmAioddCJ71rnEu_b11Dcyn2JXzhetqloLgHgnSrtJ3sRP?auto=format&w=256",
+                    name: "Elemental by Fang Lijun",
+                    floorPrice: 1123000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/3d5365caab0a25b656daa3bfceecadb6.jpg?auto=format&w=256",
+                    name: "MechMindsAI",
+                    floorPrice: 699000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/_R4fuC4QGYd14-KwX2bD1wf-AWjDF2VMabfqWFJhIgiN2FnAUpnD5PLdJORrhQ8gly7KcjhQZZpuzYVPF7CDSzsqmDh97z84j2On?auto=format&w=256",
+                    name: "BEANZ Official",
+                    floorPrice: 16196000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wURdIdInWRcFIl46UjUQ1eV7BEndGe8L661OoG-clRi7EgInLX4LPu9Jfw4fq0bnVYHqg7RFi?auto=format&w=256",
+                    name: "Pudgy Penguins",
+                    floorPrice: 54999000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/FG0QJ00fN3c_FWuPeUr9-T__iQl63j9hn5d6svW8UqOmia5zp3lKHPkJuHcvhZ0f_Pd6P2COo9tt9zVUvdPxG_9BBw?auto=format&w=256",
+                    name: "Rarible",
+                    floorPrice: 0, // WEI
+                    currency: "ETH",
+                },
+
+                // ---15-----
+                {
+                    imgUrl: "https://i.seadn.io/gae/EFAQpIktMBU5SU0TqSdPWZ4byHr3hFirL_mATsR8KWhM5z-GJljX8E73V933lkyKgv2SAFlfRRjGsWvWbQQmJAwu3F2FDXVa1C9F?auto=format&w=256",
+                    name: "World of Women",
+                    floorPrice: 2079000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/g-NFUWjS4IGgym8PHBxyhg5-G_B4x-IHgPKRkxo00JQFE3LOd-95yU2uhrokITVmV7KHEav6OMfAhfJ4roC5hwP-0tI9dMRd9wQLdw?auto=format&w=256",
+                    name: "Loot (for Adventurers)",
+                    floorPrice: 559000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/Nnp8Pdo6EidK7eBduGnAn_JBvFsYGhNGMJ_fHJ_mzGMN_2Khu5snL5zmiUMcSsIqtANh19KqxXDs0iNq_aYbKC5smO3hiCSw9PlL?auto=format&w=256",
+                    name: "Parallel Alpha",
+                    floorPrice: 1000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/iofetZEyiEIGcNyJKpbOafb_efJyeo7QOYnTog8qcQJhqoBU-Vu9l3lXidZhXOAdu6dj4fzWW6BZDU5vLseC-K03rMMu-_j2LvwcbHo?auto=format&w=256",
+                    name: "CrypToadz by GREMPLIN",
+                    floorPrice: 127000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: " https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?auto=format&w=256",
+                    name: "ENS: Ethereum Name Service",
+                    floorPrice: 14000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/5KIxEGmnAiL5psnMCSLPlfSxDxfRSk4sTQRSyhPdgnu70nGb2YsuVxTmO2iKEkOZOfq476Bl1hAu6aJIKjs1myY?auto=format&w=256",
+                    name: "Decentraland",
+                    floorPrice: 1000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/0qG8Y78s198F2GZHhURw8_TEfxFlpS2XYnuLV_OW6TJin5AV1G2WOSpcLGnEmv5g2gZ6R6Pxjd4v1DP2p0bxptckM6ZJ3cMIvQmrgDM?auto=format&w=256",
+                    name: "Chromie Squiggle by Snowfro",
+                    floorPrice: 13000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/5y-UCAXiNOFXH551w5bWdZEYOCdHPwbqmcKb-xa3uVQEjQgxvih3HtZWSmzqDqd0uk7kIqFrZhw32Gt6xPBFg4t_n9BKhpou-dwnOg?auto=format&w=256",
+                    name: "VeeFriends",
+                    floorPrice: 507000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/Mf4vImKbzrJUcj7f7RZNOl9iZSEEJgkvpiUp9ugXc9dcpxFe6fvVgxYcRmTI1PnvfL_X1bD3mH4e66j6aJhqLEYm0vvpC8Jy8XJNZOI?auto=format&w=256",
+                    name: "Bored Ape Chemistry Club",
+                    floorPrice: 1855000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/3f76da086f4bbd07d8e6cdac14e3c02f.png?auto=format&w=256",
+                    name: "HAPE PRIME",
+                    floorPrice: 3289000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/gp39NTyxBPazqowYV9XTFxAU4eNk1i7FlmonHW4Zr7eS9UxEvrZ7f04rOLEhDxcuGxsbUx1Rm_N6Ky_Dp4A1ZQYHFAaEWj5YdBF0qg?auto=format&w=256",
+                    name: "RTFKT - MNLTH",
+                    floorPrice: 35000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/ae70936496054650faf8ee38a7cab5e8.png?auto=format&w=256",
+                    name: "FFidenza by Tyler Hobbs",
+                    floorPrice: 733000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/J2iIgy5_gmA8IS6sXGKGZeFVZwhldQylk7w7fLepTE9S7ICPCn_dlo8kypX8Ju0N6wvLVOKsbP_7bNGd8cpKmWhFQmqMXOC8q2sOdqw?auto=format&w=256",
+                    name: "MAD about crypto street-art",
+                    floorPrice: 14399000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gae/cb_wdEAmvry_noTfeuQzhqKpghhZWQ_sEhuGS9swM03UM8QMEVJrndu0ZRdLFgGVqEPeCUzOHGTUllxug9U3xdvt0bES6VFdkRCKPqg?auto=format&w=256",
+                    name: "goblintown.wtf",
+                    floorPrice: 599000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/fb08eacd7e9c4f21303e5d771eb4a2eb.png?auto=format&w=256",
+                    name: "NFT Worlds",
+                    floorPrice: 13499000000000000000, // WEI
+                    currency: "ETH",
+                },
+                // -------15----------------------------------------------------------------------------------
+            ],
+
             byVolume: [
                 {
                     name: "Tether USD",
@@ -6506,195 +6696,6 @@ export function getHomeData() {
                     holders: 6637,
                     onChainMarketCap: 45647215,
                 },
-            ],
-
-            allTime: [
-                {
-                    imgUrl: "https://i.seadn.io/gae/BdxvLseXcfl57BiuQcQYdJ64v-aI8din7WPk0Pgo3qQFhAUH-B6i-dCqqc_mCkRIzULmwzwecnohLhrcH8A9mpWIZqA7ygc52Sr81hE?auto=format&w=256",
-                    name: "CryptoPunks",
-                    floorPrice: null, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/Ju9CkWtV-1Okvf45wo8UctR-M9He2PjILP0oOvxE89AyiPPGtrR3gysu1Zgy0hjd2xKIgjJJtWIc0ybj4Vd7wv8t3pxDGHoJBzDB?auto=format&w=256",
-                    name: "Bored Ape Yacht Club",
-                    floorPrice: 775000000000000000, // WEI
-                    currency: "ETH",
-                },
-
-                {
-                    imgUrl: "https://i.seadn.io/gae/lHexKRMpw-aoSyB1WdFBff5yfANLReFxHzt1DOj_sg7mS14yARpuvYcUtsyyx-Nkpk6WTcUPFoG53VnLJezYi8hAs0OxNZwlw6Y-dmI?auto=format&w=256",
-                    name: "Mutant Ape Yacht Club",
-                    floorPrice: 16199000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/yIm-M5-BpSDdTEIJRt5D6xphizhIdozXjqSITgK4phWq7MmAU3qE7Nw7POGCiPGyhtJ3ZFP8iJ29TFl-RLcGBWX5qI4-ZcnCPcsY4zI?auto=format&w=256",
-                    name: "Otherdeed for Otherside",
-                    floorPrice: 2000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/H8jOCJuQokNqGBpkBN5wk1oZwO7LM8bNnrHCaekV2nKjnCqw6UB5oaH8XyNeBDj6bA_n1mjejzhFQUP3O1NfjFLHr3FOaeHcTOOT?auto=format&w=256",
-                    name: "Azuki",
-                    floorPrice: 1515000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/XN0XuD8Uh3jyRWNtPTFeXJg_ht8m5ofDx6aHklOiy4amhFuWUa0JaR6It49AH8tlnYS386Q0TW_-Lmedn0UET_ko1a3CbJGeu5iHMg?auto=format&w=256",
-                    name: "CLONE X - X TAKASHI MURAKAMI",
-                    floorPrice: 15243000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/H-eyNE1MwL5ohL-tCfn_Xa1Sl9M9B4612tLYeUlQubzt4ewhr4huJIR5OLuyO3Z5PpJFSwdm7rq-TikAh7f5eUw338A2cy6HRH75?auto=format&w=256",
-                    name: "Moonbirds",
-                    floorPrice: 65555000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/7B0qai02OdHA8P_EOVK672qUliyjQdQDGNrACxs7WnTgZAkJa_wWURnIFKeOh5VTf8cfTqW3wQpozGedaC9mteKphEOtztls02RlWQ?auto=format&w=256",
-                    name: "Doodles",
-                    floorPrice: 565000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gcs/files/c4dfc6be4d9c5d4f073de2efe181416a.jpg?auto=format&w=256",
-                    name: "Bored Ape Kennel Club",
-                    floorPrice: 77000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/SXH8tW1siikB80rwCRnjm1a5xM_MwTg9Xl9Db6mioIk9HIlDM09pVoSR7GKJgS6ulSUpgW9BDtMk_ePX_NKgO9A?auto=format&w=256",
-                    name: "The Sandbox",
-                    floorPrice: 843000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/hbe_-yi5K_UjPXiGj8IlxsR6ZMOy9AZs17vcCLIEbvS5Q7VaPCM7JwYmAioddCJ71rnEu_b11Dcyn2JXzhetqloLgHgnSrtJ3sRP?auto=format&w=256",
-                    name: "Elemental by Fang Lijun",
-                    floorPrice: 1123000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gcs/files/3d5365caab0a25b656daa3bfceecadb6.jpg?auto=format&w=256",
-                    name: "MechMindsAI",
-                    floorPrice: 699000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/_R4fuC4QGYd14-KwX2bD1wf-AWjDF2VMabfqWFJhIgiN2FnAUpnD5PLdJORrhQ8gly7KcjhQZZpuzYVPF7CDSzsqmDh97z84j2On?auto=format&w=256",
-                    name: "BEANZ Official",
-                    floorPrice: 16196000000000000000, // WEI
-                    currency: "ETH",
-                },
-
-                {
-                    imgUrl: "https://i.seadn.io/gae/yNi-XdGxsgQCPpqSio4o31ygAV6wURdIdInWRcFIl46UjUQ1eV7BEndGe8L661OoG-clRi7EgInLX4LPu9Jfw4fq0bnVYHqg7RFi?auto=format&w=256",
-                    name: "Pudgy Penguins",
-                    floorPrice: 54999000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/FG0QJ00fN3c_FWuPeUr9-T__iQl63j9hn5d6svW8UqOmia5zp3lKHPkJuHcvhZ0f_Pd6P2COo9tt9zVUvdPxG_9BBw?auto=format&w=256",
-                    name: "Rarible",
-                    floorPrice: 0, // WEI
-                    currency: "ETH",
-                },
-
-                // ---15-----
-                {
-                    imgUrl: "https://i.seadn.io/gae/EFAQpIktMBU5SU0TqSdPWZ4byHr3hFirL_mATsR8KWhM5z-GJljX8E73V933lkyKgv2SAFlfRRjGsWvWbQQmJAwu3F2FDXVa1C9F?auto=format&w=256",
-                    name: "World of Women",
-                    floorPrice: 2079000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/g-NFUWjS4IGgym8PHBxyhg5-G_B4x-IHgPKRkxo00JQFE3LOd-95yU2uhrokITVmV7KHEav6OMfAhfJ4roC5hwP-0tI9dMRd9wQLdw?auto=format&w=256",
-                    name: "Loot (for Adventurers)",
-                    floorPrice: 559000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/Nnp8Pdo6EidK7eBduGnAn_JBvFsYGhNGMJ_fHJ_mzGMN_2Khu5snL5zmiUMcSsIqtANh19KqxXDs0iNq_aYbKC5smO3hiCSw9PlL?auto=format&w=256",
-                    name: "Parallel Alpha",
-                    floorPrice: 1000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/iofetZEyiEIGcNyJKpbOafb_efJyeo7QOYnTog8qcQJhqoBU-Vu9l3lXidZhXOAdu6dj4fzWW6BZDU5vLseC-K03rMMu-_j2LvwcbHo?auto=format&w=256",
-                    name: "CrypToadz by GREMPLIN",
-                    floorPrice: 127000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: " https://i.seadn.io/gae/0cOqWoYA7xL9CkUjGlxsjreSYBdrUBE0c6EO1COG4XE8UeP-Z30ckqUNiL872zHQHQU5MUNMNhfDpyXIP17hRSC5HQ?auto=format&w=256",
-                    name: "ENS: Ethereum Name Service",
-                    floorPrice: 14000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/5KIxEGmnAiL5psnMCSLPlfSxDxfRSk4sTQRSyhPdgnu70nGb2YsuVxTmO2iKEkOZOfq476Bl1hAu6aJIKjs1myY?auto=format&w=256",
-                    name: "Decentraland",
-                    floorPrice: 1000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/0qG8Y78s198F2GZHhURw8_TEfxFlpS2XYnuLV_OW6TJin5AV1G2WOSpcLGnEmv5g2gZ6R6Pxjd4v1DP2p0bxptckM6ZJ3cMIvQmrgDM?auto=format&w=256",
-                    name: "Chromie Squiggle by Snowfro",
-                    floorPrice: 13000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/5y-UCAXiNOFXH551w5bWdZEYOCdHPwbqmcKb-xa3uVQEjQgxvih3HtZWSmzqDqd0uk7kIqFrZhw32Gt6xPBFg4t_n9BKhpou-dwnOg?auto=format&w=256",
-                    name: "VeeFriends",
-                    floorPrice: 507000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/Mf4vImKbzrJUcj7f7RZNOl9iZSEEJgkvpiUp9ugXc9dcpxFe6fvVgxYcRmTI1PnvfL_X1bD3mH4e66j6aJhqLEYm0vvpC8Jy8XJNZOI?auto=format&w=256",
-                    name: "Bored Ape Chemistry Club",
-                    floorPrice: 1855000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gcs/files/3f76da086f4bbd07d8e6cdac14e3c02f.png?auto=format&w=256",
-                    name: "HAPE PRIME",
-                    floorPrice: 3289000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/gp39NTyxBPazqowYV9XTFxAU4eNk1i7FlmonHW4Zr7eS9UxEvrZ7f04rOLEhDxcuGxsbUx1Rm_N6Ky_Dp4A1ZQYHFAaEWj5YdBF0qg?auto=format&w=256",
-                    name: "RTFKT - MNLTH",
-                    floorPrice: 35000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gcs/files/ae70936496054650faf8ee38a7cab5e8.png?auto=format&w=256",
-                    name: "FFidenza by Tyler Hobbs",
-                    floorPrice: 733000000000000000, // WEI
-                    currency: "ETH",
-                },
-
-                {
-                    imgUrl: "https://i.seadn.io/gae/J2iIgy5_gmA8IS6sXGKGZeFVZwhldQylk7w7fLepTE9S7ICPCn_dlo8kypX8Ju0N6wvLVOKsbP_7bNGd8cpKmWhFQmqMXOC8q2sOdqw?auto=format&w=256",
-                    name: "MAD about crypto street-art",
-                    floorPrice: 14399000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gae/cb_wdEAmvry_noTfeuQzhqKpghhZWQ_sEhuGS9swM03UM8QMEVJrndu0ZRdLFgGVqEPeCUzOHGTUllxug9U3xdvt0bES6VFdkRCKPqg?auto=format&w=256",
-                    name: "goblintown.wtf",
-                    floorPrice: 599000000000000000, // WEI
-                    currency: "ETH",
-                },
-                {
-                    imgUrl: "https://i.seadn.io/gcs/files/fb08eacd7e9c4f21303e5d771eb4a2eb.png?auto=format&w=256",
-                    name: "NFT Worlds",
-                    floorPrice: 13499000000000000000, // WEI
-                    currency: "ETH",
-                },
-                // -------15-------
             ],
         },
     });

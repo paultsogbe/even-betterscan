@@ -2,7 +2,7 @@ import React from "react";
 
 function Statistique(props) {
     return (
-        <div className="h-36 content-center grow-0 mb-20 ml-2.5 flex justify-center items-center rounded-md body-font font-satoshi statisique1">
+        <div className="statisique1 h-36 content-center grow-0 mb-20 ml-2.5 flex justify-center items-center rounded-md body-font font-satoshi ">
             <div className="box1 content-center grow-0 flex justify-center items-center rounded-md body-font font-satoshi">
                 <div className="box">
                     <div className="flex  items-baseline justify-around bg-bac">
