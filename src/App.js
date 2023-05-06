@@ -42,6 +42,13 @@ function App() {
     const [data, setData] = useState([]);
     const [stat, setStat] = useState();
     const [jeton, setJeton] = useState([]);
+    const [volume, setVolume] = useState([]);
+
+    const [name, setName] = useState("Capitalization");
+    const [selectedOption, setSelectedOption] = useState("title"); // default selected option is title
+    const handleOptionChange = (option) => {
+        setSelectedOption(option);
+    };
 
     async function getResult() {
         let result = await getHomeData();
@@ -53,6 +60,7 @@ function App() {
         setData(data.collectionsFirstChunk.byTrend);
         setStat(data.stats);
         setJeton(data.tokensFirstChunk.byMarketCap);
+        setVolume(data.tokensFirstChunk.byVolume);
         // console.log(newData);
         return newData;
     }
@@ -110,9 +118,13 @@ function App() {
                     {!stat && <div>Loading</div>}
                 </div>
 
-                <div className="flex justify-between items-center content-center border-b pb-4 mb-4 collection">
+                <div className="flex justify-between items-center content-center border-b pb-10 mb-10 collection">
                     <p className="font-bold text-xl">Collection NFT</p>
-                    <DropDown name="Tendances" />
+                    <DropDown
+                        name="Tendances"
+                        option1="Tendance1"
+                        option2="Tendance2"
+                    />
                 </div>
                 <div className="flex justify-between mt-5"></div>
                 <ScrollCarousel data={data} />
@@ -120,9 +132,24 @@ function App() {
                 <div className="flex justify-between items-center content-center border-b pb-4 mb-4 jetons">
                     <p className="font-bold text-xl ">Jetons</p>
 
-                    <DropDown name="Capitalization" />
+                    <DropDown
+                        name={name}
+                        option1="By Market Cap"
+                        option2="By Volume"
+                        selectedOption={selectedOption}
+                        setSelectedOption={setSelectedOption}
+                        handleOptionChange={handleOptionChange}
+                    />
                 </div>
-                {jeton ? <Table jeton={jeton} /> : <div>Loading</div>}
+                {jeton ? (
+                    <Table
+                        jeton={jeton}
+                        volume={volume}
+                        selectedOption={selectedOption}
+                    />
+                ) : (
+                    <div>Loading</div>
+                )}
             </div>
             <div>
                 <Footer />

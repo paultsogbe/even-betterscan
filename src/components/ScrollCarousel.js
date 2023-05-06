@@ -466,7 +466,7 @@ function ScrollCarousel(props) {
                     setTimeout(() => {
                         setCurrentPage((currentPage) => currentPage + 1);
                         setIsLoading(false);
-                    }, 100);
+                    }, 500);
                 }
             });
 

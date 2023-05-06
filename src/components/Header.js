@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <div className="flex justify-center h-14 items-center header">
+        <div className="flex justify-center h-12 items-center header">
             <p className="mr-12">
                 Vous voulez faire de BetterScan votre explorateur par défaut ?🕵️
             </p>

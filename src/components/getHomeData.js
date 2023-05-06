@@ -4987,7 +4987,7 @@ export function getHomeData() {
                     price: 1.002,
                     holders: 4073124,
                     onChainMarketCap: 39902766084,
-                    img: "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
+                    img: " https://s2.coinmarketcap.com/static/img/coins/64x64/825.png",
                 },
                 {
                     name: "BNB",
@@ -5988,6 +5988,7 @@ export function getHomeData() {
                     price: 1.002,
                     holders: 176526,
                     onChainMarketCap: 17610244995,
+                    img: "https://altcoinsbox.com/wp-content/uploads/2023/01/binance-usd-busd-logo.webp",
                 },
                 {
                     name: "USD Coin",
@@ -5995,6 +5996,7 @@ export function getHomeData() {
                     price: 1.003,
                     holders: 1621848,
                     onChainMarketCap: 46742238132,
+                    img: "https://cryptologos.cc/logos/usd-coin-usdc-logo.png",
                 },
                 {
                     name: "ChainLink Token",
@@ -6018,6 +6020,7 @@ export function getHomeData() {
                     price: 95.2324,
                     holders: 15,
                     onChainMarketCap: 6856,
+                    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LTC-400.png/1200px-LTC-400.png",
                 },
                 {
                     name: "BNB",
@@ -6049,6 +6052,7 @@ export function getHomeData() {
                     price: 0.045,
                     holders: 20475,
                     onChainMarketCap: 450391900,
+                    img: "https://mma.prnewswire.com/media/1055937/Alchemy_Logo.jpg?p=facebook",
                 },
                 {
                     name: "Lido DAO Token",
@@ -6056,6 +6060,7 @@ export function getHomeData() {
                     price: 3.16,
                     holders: 31731,
                     onChainMarketCap: 3160000000,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/8000.png",
                 },
                 {
                     name: "Theta Token",
@@ -6071,6 +6076,7 @@ export function getHomeData() {
                     price: 9,
                     holders: 55472,
                     onChainMarketCap: 350180832,
+                    img: "https://cryptologos.cc/logos/yearn-finance-yfi-logo.png",
                 },
                 {
                     name: "Blur",
@@ -6078,6 +6084,7 @@ export function getHomeData() {
                     price: 0.9903,
                     holders: 45196,
                     onChainMarketCap: 2971017000,
+                    img: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8b8f6c0-484f-46f0-82f9-7c40c85b2b9d/d22sz5i-57747757-1f48-471d-93f9-ed2c5c61803f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4YjhmNmMwLTQ4NGYtNDZmMC04MmY5LTdjNDBjODViMmI5ZFwvZDIyc3o1aS01Nzc0Nzc1Ny0xZjQ4LTQ3MWQtOTNmOS1lZDJjNWM2MTgwM2YuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.B4BLTbDbyLGuAzAacZ41gVCAbeNGUNHEoovI9wghLnU",
                 },
                 {
                     name: "EnjinCoin",
@@ -6085,6 +6092,7 @@ export function getHomeData() {
                     price: 0.5522,
                     holders: 185497,
                     onChainMarketCap: 552176000,
+                    img: "https://cryptologos.cc/logos/enjin-coin-enj-logo.png",
                 },
                 {
                     name: "SAND",
@@ -6116,6 +6124,7 @@ export function getHomeData() {
                     price: 2.73,
                     holders: 37100,
                     onChainMarketCap: 2730000000,
+                    img: "https://blog.bitnovo.com/wp-content/uploads/2022/02/dYdX2.jpg",
                 },
                 {
                     name: "Gala",
@@ -6123,6 +6132,7 @@ export function getHomeData() {
                     price: 0.0449,
                     holders: 210782,
                     onChainMarketCap: 1655160074,
+                    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Gala_Logo_2020.svg/1200px-Gala_Logo_2020.svg.png",
                 },
                 {
                     name: "Fetch",
@@ -6130,6 +6140,7 @@ export function getHomeData() {
                     price: 0.4474,
                     holders: 40221,
                     onChainMarketCap: 515816525,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi1e62cNlRkqf_jX0TlxDIa6nVos3Vm8yqriFXWDO1JA&s",
                 },
                 {
                     name: "Graph Token",
@@ -6145,6 +6156,7 @@ export function getHomeData() {
                     price: 0.0358,
                     holders: 23537,
                     onChainMarketCap: 5977421,
+                    img: "https://w7.pngwing.com/pngs/443/1014/png-transparent-zilliqa-crypto-zilliqa-logo-zilliqa-sign-zilliqa-symbol-zilliqa-coin-zilliqa-3d-icon-thumbnail.png",
                 },
                 {
                     name: "NEAR",
@@ -6184,6 +6196,7 @@ export function getHomeData() {
                     price: 1.57,
                     holders: 7504,
                     onChainMarketCap: 180193826,
+                    img: "https://go.timextender.com/hubfs/azure%20synapse%20analytics.jpeg",
                 },
                 {
                     name: "DODO bird",
@@ -6191,6 +6204,7 @@ export function getHomeData() {
                     price: 0.2448,
                     holders: 13354,
                     onChainMarketCap: 244756000,
+                    img: "https://scalebranding.com/wp-content/uploads/2020/12/Dodo-Bird-Logo-MockUp.jpg",
                 },
                 {
                     name: "SelfKey",
@@ -6198,6 +6212,7 @@ export function getHomeData() {
                     price: 0.0136,
                     holders: 15561,
                     onChainMarketCap: 81432419,
+                    img: "https://cdn.worldvectorlogo.com/logos/selfkey.svg",
                 },
                 {
                     name: "chiliZ",
@@ -6205,6 +6220,7 @@ export function getHomeData() {
                     price: 0.1398,
                     holders: 175676,
                     onChainMarketCap: 1242311110,
+                    img: "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/u3mzepegllnxslgkeqx6",
                 },
                 {
                     name: "GreenMetaverseToken",
@@ -6212,6 +6228,7 @@ export function getHomeData() {
                     price: 0.4352,
                     holders: 10461,
                     onChainMarketCap: 25280742,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/18069.png",
                 },
                 {
                     name: "Uniswap",
@@ -6227,6 +6244,7 @@ export function getHomeData() {
                     price: 0.0304,
                     holders: 46185,
                     onChainMarketCap: 30370624,
+                    img: "https://pbs.twimg.com/profile_images/1571919423337816064/-hd_M7JR_400x400.png",
                 },
                 {
                     name: "Aave Interest bearing Aave Token",
@@ -6234,6 +6252,7 @@ export function getHomeData() {
                     price: 86.68,
                     holders: 144,
                     onChainMarketCap: 451689,
+                    img: "https://zerion.io/blog/content/images/2022/11/Aave-V2.png",
                 },
                 {
                     name: "Staked Aave",
@@ -6241,6 +6260,7 @@ export function getHomeData() {
                     price: 86.68,
                     holders: 19577,
                     onChainMarketCap: 245275795,
+                    img: "https://www.cryptocompare.com/media/39383069/stkaave.png",
                 },
                 {
                     name: "PolkaBridge",
@@ -6248,6 +6268,7 @@ export function getHomeData() {
                     price: 0.117,
                     holders: 13358,
                     onChainMarketCap: 9578593,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/8320.png",
                 },
                 {
                     name: "FLOKI",
@@ -6255,6 +6276,7 @@ export function getHomeData() {
                     price: 0,
                     holders: 69137,
                     onChainMarketCap: 490400000,
+                    img: "https://cryptologos.cc/logos/floki-inu-floki-logo.png",
                 },
                 {
                     name: "Mask Network",
@@ -6262,6 +6284,7 @@ export function getHomeData() {
                     price: 3.93,
                     holders: 11721,
                     onChainMarketCap: 393000000,
+                    img: "https://mask.io/assets/icons/logo.svg",
                 },
                 {
                     name: "LoopringCoin V2",
@@ -6277,6 +6300,7 @@ export function getHomeData() {
                     price: 0.0064,
                     holders: 94478,
                     onChainMarketCap: 637781301,
+                    img: "https://thumbs.dreamstime.com/b/amp-letter-logo-design-template-vector-eps-electric-technology-purpose-ready-to-use-creative-modern-letter-amp-logo-design-168997431.jpg",
                 },
                 {
                     name: "Frax Share",
@@ -6284,6 +6308,7 @@ export function getHomeData() {
                     price: 11.27,
                     holders: 12731,
                     onChainMarketCap: 1125827356,
+                    img: "https://cryptologos.cc/logos/frax-share-fxs-logo.png",
                 },
                 {
                     name: "Render Token",
@@ -6291,6 +6316,7 @@ export function getHomeData() {
                     price: 1.63,
                     holders: 24323,
                     onChainMarketCap: 854095313,
+                    img: "https://thegivingblock.com/wp-content/uploads/2021/12/render-token-RNDR.png",
                 },
                 {
                     name: "BAT",
@@ -6306,6 +6332,7 @@ export function getHomeData() {
                     price: 1.42,
                     holders: 112966,
                     onChainMarketCap: 340967373,
+                    img: "https://cryptologos.cc/logos/sushiswap-sushi-logo.png",
                 },
                 {
                     name: "WQtum",
@@ -6313,6 +6340,7 @@ export function getHomeData() {
                     price: 3.5612,
                     holders: 41,
                     onChainMarketCap: 383979695,
+                    img: "https://cryptologos.cc/logos/qtum-qtum-logo.png",
                 },
                 {
                     name: "Synthetix Network Token",
@@ -6320,6 +6348,7 @@ export function getHomeData() {
                     price: 2.72,
                     holders: 94547,
                     onChainMarketCap: 659651884,
+                    img: "https://thegivingblock.com/wp-content/uploads/2021/07/Synthetix-Logo.png",
                 },
                 {
                     name: "StargateToken",
@@ -6327,6 +6356,7 @@ export function getHomeData() {
                     price: 1.092,
                     holders: 19545,
                     onChainMarketCap: 1092000000,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/18934.png",
                 },
                 {
                     name: "ZRX",
@@ -6334,6 +6364,7 @@ export function getHomeData() {
                     price: 0.2828,
                     holders: 196685,
                     onChainMarketCap: 282802000,
+                    img: "https://cryptologos.cc/logos/0x-zrx-logo.svg?v=025",
                 },
                 {
                     name: "1INCH Token",
@@ -6349,6 +6380,7 @@ export function getHomeData() {
                     price: 0.1343,
                     holders: 10803,
                     onChainMarketCap: 26868600,
+                    img: "https://inkythuatso.com/uploads/thumbnails/800/2021/12/logo-vib-inkythuatso-3-21-13-44-34.jpg",
                 },
                 {
                     name: "TrueUSD",
@@ -6356,6 +6388,7 @@ export function getHomeData() {
                     price: 1.002,
                     holders: 51013,
                     onChainMarketCap: 1139855851,
+                    img: "https://images.prismic.io/tusd-homepage/fb4d581a-95ed-404c-b9de-7ab1365c1386_%E5%9B%BE%E5%B1%82+1.png?auto=compress,format",
                 },
                 {
                     name: "Storj",
@@ -6363,6 +6396,7 @@ export function getHomeData() {
                     price: 0.4753,
                     holders: 93297,
                     onChainMarketCap: 202021624,
+                    img: "https://cryptologos.cc/logos/storj-storj-logo.png",
                 },
                 {
                     name: "ALICE",
@@ -6370,6 +6404,7 @@ export function getHomeData() {
                     price: 2.12,
                     holders: 8224,
                     onChainMarketCap: 195040000,
+                    img: "https://upload.wikimedia.org/wikipedia/fr/thumb/f/fb/Alice_%28logo%29.svg/1200px-Alice_%28logo%29.svg.png",
                 },
                 {
                     name: "Hashflow",
@@ -6377,6 +6412,7 @@ export function getHomeData() {
                     price: 0.7166,
                     holders: 8308,
                     onChainMarketCap: 716625000,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/22461.png",
                 },
                 {
                     name: "[FCT] FirmaChain Token",
@@ -6384,6 +6420,7 @@ export function getHomeData() {
                     price: 0.074,
                     holders: 12707,
                     onChainMarketCap: 44392200,
+                    img: "https://pbs.twimg.com/profile_images/1547105326704787456/-sWWIK9N_400x400.png",
                 },
                 {
                     name: "Decentralized USD",
@@ -6391,6 +6428,7 @@ export function getHomeData() {
                     price: 0.9989,
                     holders: 838,
                     onChainMarketCap: 3096447,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/18861.png",
                 },
                 {
                     name: "Ocean Token",
@@ -6398,6 +6436,7 @@ export function getHomeData() {
                     price: 0.4453,
                     holders: 44537,
                     onChainMarketCap: 273026535,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd2s700RmYQF7Qwyo55qpgq09dN7PURUWM7ukabSvF4A&s",
                 },
                 {
                     name: "Injective Token",
@@ -6405,6 +6444,7 @@ export function getHomeData() {
                     price: 3.99,
                     holders: 12027,
                     onChainMarketCap: 399000000,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcLRR4evZtdlO7d_-CIMNh_BRZfBFaJreQuI1p_kSLg&s",
                 },
                 {
                     name: "OKB",
@@ -6412,6 +6452,7 @@ export function getHomeData() {
                     price: 51.8,
                     holders: 50754,
                     onChainMarketCap: 15540000000,
+                    img: "https://cryptologos.cc/logos/okb-okb-logo.png",
                 },
                 {
                     name: "SSV Token",
@@ -6419,6 +6460,7 @@ export function getHomeData() {
                     price: 39.58,
                     holders: 2349,
                     onChainMarketCap: 435697471,
+                    img: "https://pbs.twimg.com/profile_images/1462629470460727300/44rQmYKo_400x400.png",
                 },
                 {
                     name: "Immutable X",
@@ -6434,6 +6476,7 @@ export function getHomeData() {
                     price: 0.0121,
                     holders: 13890,
                     onChainMarketCap: 121214800,
+                    img: "https://icodrops.com/wp-content/uploads/2020/09/Linear_logo.jpg",
                 },
                 {
                     name: "ARPA Token",
@@ -6441,6 +6484,7 @@ export function getHomeData() {
                     price: 0.0477,
                     holders: 10169,
                     onChainMarketCap: 71619779,
+                    img: "https://cryptologos.cc/logos/arpa-chain-arpa-logo.png",
                 },
                 {
                     name: "Ethereum Name Service",
@@ -6448,6 +6492,7 @@ export function getHomeData() {
                     price: 16.63,
                     holders: 64065,
                     onChainMarketCap: 1663000000,
+                    img: "https://img.freepik.com/vector-premium/ens-ethereum-name-service-token-token-cryptocurrency-logo-circulo-icono-moneda-aislado-sobre-fondo-blanco_337410-1834.jpg?w=2000",
                 },
                 {
                     name: "stETH",
@@ -6455,6 +6500,7 @@ export function getHomeData() {
                     price: 1,
                     holders: 165848,
                     onChainMarketCap: 3074488567,
+                    img: "https://cryptologos.cc/logos/steth-steth-logo.png",
                 },
                 {
                     name: "AlphaToken",
@@ -6462,6 +6508,7 @@ export function getHomeData() {
                     price: 0.1518,
                     holders: 9452,
                     onChainMarketCap: 151832000,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/7232.png",
                 },
                 {
                     name: "PlayDapp Token",
@@ -6469,6 +6516,7 @@ export function getHomeData() {
                     price: 0.2636,
                     holders: 2683,
                     onChainMarketCap: 184533248,
+                    img: "https://altcoinsbox.com/wp-content/uploads/2023/04/playdapp-logo.jpg",
                 },
                 {
                     name: "Coin98",
@@ -6476,6 +6524,7 @@ export function getHomeData() {
                     price: 0.3202,
                     holders: 2279,
                     onChainMarketCap: 16007562,
+                    img: "https://bitcoin.es/wp-content/uploads/2019/05/cip-binance.png",
                 },
                 {
                     name: "ConstitutionDAO",
@@ -6483,6 +6532,7 @@ export function getHomeData() {
                     price: 0.028,
                     holders: 16918,
                     onChainMarketCap: 141599834,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/14806.png",
                 },
                 {
                     name: "UMA Voting Token v1",
@@ -6490,6 +6540,7 @@ export function getHomeData() {
                     price: 2.39,
                     holders: 20218,
                     onChainMarketCap: 253806272,
+                    img: "https://token-icons.s3.amazonaws.com/0x04fa0d235c4abf4bcf4787af4cf447de572ef828.png",
                 },
                 {
                     name: "Wrapped TON Coin",
@@ -6505,6 +6556,7 @@ export function getHomeData() {
                     price: 0.0055,
                     holders: 13383,
                     onChainMarketCap: 549564000,
+                    img: "https://www.thecoinrepublic.com/wp-content/uploads/2022/10/rsr-1140x641.jpg",
                 },
                 {
                     name: "Quant",
@@ -6520,6 +6572,7 @@ export function getHomeData() {
                     price: 0.7477,
                     holders: 2222,
                     onChainMarketCap: 16832202,
+                    img: "https://icodrops.com/wp-content/uploads/2020/06/Stafi_logo.jpg",
                 },
                 {
                     name: "Kyber Network Crystal v2",
@@ -6527,6 +6580,7 @@ export function getHomeData() {
                     price: 0.8732,
                     holders: 14189,
                     onChainMarketCap: 167323650,
+                    img: "https://stakingcrypto.info/static/assets/coins/kyber-network-crystal-v2-logo.png",
                 },
                 {
                     name: "Moss Coin",
@@ -6534,6 +6588,7 @@ export function getHomeData() {
                     price: 0.1204,
                     holders: 6598,
                     onChainMarketCap: 60177500,
+                    img: "https://stakingcrypto.info/static/assets/coins/moss-coin-logo.png",
                 },
                 {
                     name: "Measurable Data Token",
@@ -6541,6 +6596,7 @@ export function getHomeData() {
                     price: 0.0665,
                     holders: 27272,
                     onChainMarketCap: 66483000,
+                    img: "https://cryptologos.cc/logos/measurable-data-token-mdt-logo.png",
                 },
                 {
                     name: "CelerToken",
@@ -6548,6 +6604,7 @@ export function getHomeData() {
                     price: 0.025,
                     holders: 19186,
                     onChainMarketCap: 250180700,
+                    img: "https://celer.network/static/Black-4d795924d523c9d8d45540e67370465a.png",
                 },
                 {
                     name: "VERA",
@@ -6555,6 +6612,7 @@ export function getHomeData() {
                     price: 0.0087,
                     holders: 80350,
                     onChainMarketCap: 169834073,
+                    img: "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/122011/untitled-1_69.png?itok=CmIvHpAn",
                 },
                 {
                     name: "Compound",
@@ -6562,6 +6620,7 @@ export function getHomeData() {
                     price: 53.93,
                     holders: 208888,
                     onChainMarketCap: 539300000,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt0Io8Zoydng6PH3ZKpvRV7Cvz__wCaYvWu0oP7Lk&s",
                 },
                 {
                     name: "Wootrade Network",
@@ -6569,6 +6628,7 @@ export function getHomeData() {
                     price: 0.2317,
                     holders: 13985,
                     onChainMarketCap: 694959000,
+                    img: "https://cryptologos.cc/logos/wootrade-woo-logo.png",
                 },
                 {
                     name: "HarmonyOne",
@@ -6576,6 +6636,7 @@ export function getHomeData() {
                     price: 0.0249,
                     holders: 195,
                     onChainMarketCap: 310389495,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLcdDJv-gFMKXyCkpAo3K6eEwOgG3yRJaNaVjodeyAgw&s",
                 },
                 {
                     name: "OMG Network",
@@ -6583,6 +6644,7 @@ export function getHomeData() {
                     price: 1.79,
                     holders: 682436,
                     onChainMarketCap: 251039262,
+                    img: "https://ih1.redbubble.net/image.1627481397.3250/flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
                 },
                 {
                     name: "Gifto",
@@ -6590,6 +6652,7 @@ export function getHomeData() {
                     price: 0.0789,
                     holders: 111853,
                     onChainMarketCap: 78886000,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/2289.png",
                 },
                 {
                     name: "USDK",
@@ -6597,6 +6660,7 @@ export function getHomeData() {
                     price: 1.002,
                     holders: 3871,
                     onChainMarketCap: 42563668,
+                    img: "https://upload.wikimedia.org/wikipedia/fr/thumb/3/32/Logo_du_USDK.png/378px-Logo_du_USDK.png",
                 },
                 {
                     name: "IoTeX Network",
@@ -6604,6 +6668,7 @@ export function getHomeData() {
                     price: 0.0304,
                     holders: 20374,
                     onChainMarketCap: 304349223,
+                    img: "https://cryptologos.cc/logos/iotex-iotx-logo.png",
                 },
                 {
                     name: "Onyxcoin",
@@ -6611,6 +6676,7 @@ export function getHomeData() {
                     price: 0.0114,
                     holders: 10080,
                     onChainMarketCap: 786707036,
+                    img: "https://stakingcrypto.info/static/assets/coins/onyxcoin-logo.png",
                 },
                 {
                     name: "Cronos Coin",
@@ -6618,6 +6684,7 @@ export function getHomeData() {
                     price: 0.083,
                     holders: 292973,
                     onChainMarketCap: 8302700000,
+                    img: "https://cryptologos.cc/logos/cronos-cro-logo.png",
                 },
                 {
                     name: "IOSToken",
@@ -6625,6 +6692,7 @@ export function getHomeData() {
                     price: 0.012,
                     holders: 41366,
                     onChainMarketCap: 252877908,
+                    img: "https://upload.wikimedia.org/wikipedia/en/9/9d/IOStoken_logo.jpg",
                 },
                 {
                     name: "Bifrost",
@@ -6632,6 +6700,7 @@ export function getHomeData() {
                     price: 0.081,
                     holders: 3564,
                     onChainMarketCap: 324072000,
+                    img: "https://s3.ap-northeast-2.amazonaws.com/thebifrost.io/logo/img_logo_big.png",
                 },
                 {
                     name: "HuobiToken",
@@ -6639,6 +6708,7 @@ export function getHomeData() {
                     price: 5.3,
                     holders: 51765,
                     onChainMarketCap: 2650000000,
+                    img: "https://cryptologos.cc/logos/huobi-token-ht-logo.png",
                 },
                 {
                     name: "BandToken",
@@ -6646,6 +6716,7 @@ export function getHomeData() {
                     price: 2.21,
                     holders: 33623,
                     onChainMarketCap: 221000000,
+                    img: "https://www.bandprotocol.com/static/images/band-token-blue.svg",
                 },
                 {
                     name: "Smooth Love Potion",
@@ -6653,6 +6724,7 @@ export function getHomeData() {
                     price: 0.0033,
                     holders: 56557,
                     onChainMarketCap: 14134994,
+                    img: "https://www.asiacryptotoday.com/wp-content/uploads/2021/07/smooth-love-potion-slp.jpg",
                 },
                 {
                     name: "Chroma",
@@ -6660,6 +6732,7 @@ export function getHomeData() {
                     price: 0.1917,
                     holders: 10390,
                     onChainMarketCap: 108747700,
+                    img: "https://upload.wikimedia.org/wikipedia/fr/0/00/Logo_Chroma.jpg",
                 },
                 {
                     name: "HoloToken",
@@ -6667,6 +6740,7 @@ export function getHomeData() {
                     price: 0.0023,
                     holders: 136149,
                     onChainMarketCap: 399791149,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/2682.png",
                 },
                 {
                     name: "Maker",
@@ -6674,6 +6748,7 @@ export function getHomeData() {
                     price: 758.56,
                     holders: 93225,
                     onChainMarketCap: 741591771,
+                    img: "https://play-lh.googleusercontent.com/2Ejh5f496Q0hvaaUyMVFM2lwhqQxvJptqsjoXj2wAS6PWVrTi2TpXGTymmuqNcD6N2yH",
                 },
                 {
                     name: "Swipe",
@@ -6681,6 +6756,7 @@ export function getHomeData() {
                     price: 0.3366,
                     holders: 26571,
                     onChainMarketCap: 96056275,
+                    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa3w8wKDWJ2eNB21ky9U_nKaxFOCudladM4EqM--T9&s",
                 },
                 {
                     name: "Frax",
@@ -6688,6 +6764,7 @@ export function getHomeData() {
                     price: 0.998,
                     holders: 7547,
                     onChainMarketCap: 2647848116,
+                    img: "https://cryptologos.cc/logos/frax-frax-logo.png",
                 },
                 {
                     name: "Tellor Tributes",
@@ -6695,6 +6772,7 @@ export function getHomeData() {
                     price: 19.14,
                     holders: 6637,
                     onChainMarketCap: 45647215,
+                    img: "https://s2.coinmarketcap.com/static/img/coins/200x200/4944.png",
                 },
             ],
         },
