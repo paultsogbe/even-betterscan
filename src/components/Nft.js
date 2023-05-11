@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import icon5 from "../assets/images/heart-circle.svg";
+import React from "react";
+// import icon5 from "../assets/images/heart-circle.svg";
 
 function Nft(props) {
     return (
@@ -13,11 +13,11 @@ function Nft(props) {
                         src={props.image}
                         alt="nft"
                     />
-                    <img
+                    {/* <img
                         className=" absolute top-5 right-3 h-6 mr-4 icon5 rounded-2xl"
                         src={icon5}
                         alt="icon5"
-                    />
+                    /> */}
                 </div>
 
                 <h2 className="text-base font-bold text-text3 overflow-hidden text-ellipsis">

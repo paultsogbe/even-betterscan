@@ -27,7 +27,7 @@ function DropDown(props) {
                     value="title"
                     className="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                 >
-                    {props.name}
+                    {/* {props.name} */}
                 </option>
                 <option value="option1">{props.option1}</option>
                 <option value="option2">{props.option2}</option>

@@ -8,6 +8,7 @@ import "./Fonts/WEB/fonts/Satoshi-Black.ttf";
 
 import "./App.css";
 import DropDown from "./components/DropDown";
+import Languages from "./components/Languages";
 import Header from "./components/Header";
 import Header2 from "./components/Header2";
 import SearchBar from "./components/SearchBar";
@@ -43,11 +44,18 @@ function App() {
     const [stat, setStat] = useState();
     const [jeton, setJeton] = useState([]);
     const [volume, setVolume] = useState([]);
+    const [language, setLanguage] = useState([]);
 
-    const [name, setName] = useState("Capitalization");
+    // const [name, setName] = useState("Capitalization");
     const [selectedOption, setSelectedOption] = useState("title"); // default selected option is title
     const handleOptionChange = (option) => {
         setSelectedOption(option);
+    };
+    const [languageName] = useState("Languages");
+    const [selectedOptionLanguage, setSelectedOptionLanguage] =
+        useState("title"); // default selected oprion is title
+    const handleOptionLanguageonChange = (option) => {
+        setSelectedOptionLanguage(option);
     };
 
     async function getResult() {
@@ -61,6 +69,7 @@ function App() {
         setStat(data.stats);
         setJeton(data.tokensFirstChunk.byMarketCap);
         setVolume(data.tokensFirstChunk.byVolume);
+        setLanguage(data.topBar.language);
         // console.log(newData);
         return newData;
     }
@@ -76,9 +85,35 @@ function App() {
         <>
             <Header />
             {/* ---------------------------------------------------- */}
+            {/* <Languages /> */}
+
             <div className=" mx-auto  bg-background1 mycontainer ">
-                <Header2 />
+                <Header2
+                    name={languageName}
+                    option1="English"
+                    option2="Polski"
+                    option3="中文"
+                    option4="日本語"
+                    option5="Deutsch"
+                    option6="Français"
+                    option7="Español"
+                    option8="Português"
+                    selectedOptionLanguage={selectedOptionLanguage}
+                    handleOptionLanguageonChange={handleOptionLanguageonChange}
+                />
+                {/* <Languages /> */}
+
+                {language ? (
+                    <Languages
+                        language={language}
+                        selectedOptionLanguage={selectedOptionLanguage}
+                    />
+                ) : (
+                    <div>Loading</div>
+                )}
+
                 <SearchBar />
+                {/* ------------------ */}
 
                 <div className="flex justify-around statisiques">
                     {stat && (
@@ -118,14 +153,17 @@ function App() {
                     {!stat && <div>Loading</div>}
                 </div>
 
-                <div className="flex justify-between items-center content-center border-b pb-10 mb-10 collection">
-                    <p className="font-bold text-xl">Collection NFT</p>
-                    <DropDown
-                        name="Tendances"
-                        option1="Tendance1"
-                        option2="Tendance2"
-                    />
+                <div className=" collection flex justify-between items-center content-center border-b pb-10 mb-2  ">
+                    <p className="font-bold text-xl mb-0">Collection NFT</p>
+                    <div className="tandance">
+                        <DropDown
+                            name="Tendances"
+                            option1="Tendance1"
+                            option2="Tendance2"
+                        />
+                    </div>
                 </div>
+
                 <div className="flex justify-between mt-5"></div>
                 <ScrollCarousel data={data} />
 
@@ -133,14 +171,27 @@ function App() {
                     <p className="font-bold text-xl ">Jetons</p>
 
                     <DropDown
-                        name={name}
+                        // name={name}
                         option1="By Market Cap"
                         option2="By Volume"
                         selectedOption={selectedOption}
                         setSelectedOption={setSelectedOption}
                         handleOptionChange={handleOptionChange}
                     />
+                    {/* {jeton ? (
+                        <DropDown
+                            // name={name}
+                            option1="By Market Cap"
+                            option2="By Volume"
+                            selectedOption={selectedOption}
+                            setSelectedOption={setSelectedOption}
+                            handleOptionChange={handleOptionChange}
+                        />
+                    ) : (
+                        <div>Loading</div>
+                    )} */}
                 </div>
+
                 {jeton ? (
                     <Table
                         jeton={jeton}

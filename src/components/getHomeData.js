@@ -6,9 +6,23 @@ export function getHomeData() {
         extensionBar: {
             isExtensionInstalled: false,
         },
+
         topBar: {
-            language: "fr-FR",
+            language: [
+                "fr-FR",
+                "English",
+                "polski",
+                "中文",
+                "日本語",
+                "Deutsch",
+                "Francais",
+                "Deutsch",
+                "Español",
+                "Русский",
+                "Português",
+            ],
         },
+
         stats: {
             ethPrice: "1 600 $", // in $
             averageTransactionFee: "0. 5 $", // in $ cents

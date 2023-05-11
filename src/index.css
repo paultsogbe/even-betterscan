@@ -284,6 +284,7 @@ text-align: center;
     box-sizing: border-box; */
     border-radius: 10px;
     padding: 1px;
+    border: 0px;
     /* margin-bottom: 0px;
     margin-top: 0px; */
     /* border-image: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ; */
@@ -412,7 +413,22 @@ color: #2C3131;
 
 .collection {
     border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+    
 }
+/* .tandance{
+    background: white;
+    border: 5px;
+    height: 99%;
+    width: 99%;
+
+} */
+
+/* .collect-para{
+margin-top: 5px;
+} */
+
+
+
 
 .carrousel{
     margin-left: -10%;

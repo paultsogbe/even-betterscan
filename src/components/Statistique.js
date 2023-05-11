@@ -19,7 +19,9 @@ function Statistique(props) {
                             {" "}
                             {props.number}
                         </h2>
-                        <p className="text-slate-500 coment">{props.comment}</p>
+                        <p className="text-slate-500 coment ">
+                            {props.comment}
+                        </p>
                     </div>
                 </div>
 
