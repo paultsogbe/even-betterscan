@@ -83,12 +83,12 @@ function Header2(props) {
                     <img className="logo h-6 mr-4" src={logo} alt="logo" />
                     <img className="logo1 h-6" src={logo1} alt="logo1" />
                 </div>
-                <div className="flex items-end flex-col">
-                    <p className="drop">Besoin d'aide</p>
+                <div className="flex items-start flex-col">
+                    <p className="drop ml-5 font-sans ">Besoin d'aide</p>
                     {/* Drop down menu */}
-                    <div className="relative">
+                    <div className="relative w-full">
                         <select
-                            className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                            className="inline-flex justify-center w-full px-4  text-sm font-medium text-text2 bg-gray-50 rounded-md  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-50 "
                             id="grid-state"
                             onChange={(e) =>
                                 props.handleOptionLanguageonChange(
@@ -111,12 +111,12 @@ function Header2(props) {
                                     d="M19 9l-7 7-7-7"
                                 />
                             </svg>
-                            <option
+                            {/* <option
                                 value="title"
                                 className="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                             >
                                 {props.languageName}
-                            </option>
+                            </option> */}
                             <option value="option1">{props.option1}</option>
                             <option value="option2">{props.option2}</option>
                             <option value="option3">{props.option3}</option>

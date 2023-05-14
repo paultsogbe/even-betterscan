@@ -6,6 +6,9 @@ import "./Fonts/WEB/css/satoshi.css";
 // Fonts
 import "./Fonts/WEB/fonts/Satoshi-Black.ttf";
 
+// Images
+import svg from "./assets/images/Rectangle99.png";
+
 import "./App.css";
 import DropDown from "./components/DropDown";
 import Languages from "./components/Languages";
@@ -14,6 +17,7 @@ import Header2 from "./components/Header2";
 import SearchBar from "./components/SearchBar";
 import Statistique from "./components/Statistique";
 import Statistique2 from "./components/Statistique2";
+import Statistique3 from "./components/Statistique3";
 import Nft from "./components/Nft";
 import ScrollCarousel from "./components/ScrollCarousel";
 import { getHomeData } from "./components/getHomeData";
@@ -51,7 +55,7 @@ function App() {
     const handleOptionChange = (option) => {
         setSelectedOption(option);
     };
-    const [languageName] = useState("Languages");
+    const [languageName] = useState("Choissisez votre langue");
     const [selectedOptionLanguage, setSelectedOptionLanguage] =
         useState("title"); // default selected oprion is title
     const handleOptionLanguageonChange = (option) => {
@@ -89,7 +93,7 @@ function App() {
 
             <div className=" mx-auto  bg-background1 mycontainer ">
                 <Header2
-                    name={languageName}
+                    languageName={languageName}
                     option1="English"
                     option2="Polski"
                     option3="中文"
@@ -144,31 +148,34 @@ function App() {
                     {!stat && <div>Loading</div>}
 
                     {stat && (
-                        <Statistique
+                        <Statistique3
                             text="Émission"
                             number={stat.emission}
                             time="Déflation(mensuel)"
+                            // svg={svg}
                         />
                     )}
                     {!stat && <div>Loading</div>}
                 </div>
 
-                <div className=" collection flex justify-between items-center content-center border-b pb-10 mb-2  ">
-                    <p className="font-bold text-xl mb-0">Collection NFT</p>
-                    <div className="tandance">
+                <div className=" collection flex justify-between items-center content-center border-b pb-4 mb-4  ">
+                    <p className="font-bold font-sans text-xl mb-0">
+                        Collection NFT
+                    </p>
+                    <div className=" font-sans tandance">
                         <DropDown
-                            name="Tendances"
-                            option1="Tendance1"
+                            // name="Tendances"
+                            option1="Tendances"
                             option2="Tendance2"
                         />
                     </div>
                 </div>
 
-                <div className="flex justify-between mt-5"></div>
+                {/* <div className="flex justify-between mt-5"></div> */}
                 <ScrollCarousel data={data} />
 
                 <div className="flex justify-between items-center content-center border-b pb-4 mb-4 jetons">
-                    <p className="font-bold text-xl ">Jetons</p>
+                    <p className="font-bold text-xl font-sans ">Jetons</p>
 
                     <DropDown
                         // name={name}

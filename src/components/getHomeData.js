@@ -36,19 +36,19 @@ export function getHomeData() {
             byTrend: [
                 {
                     imgUrl: "https://i.seadn.io/gae/duwTKiK5MT5ZD-IgTX_gtScj20XK6yo7Sp3dbexJZRhB6pIM6EUg4tAyUFy1yWnmY8PmcITj2vFTK1RkNGcTSWfquR3qQ2M7PgG-Uw?auto=format&w=256",
-                    name: "BAD MONKEY APES OFFICIAL",
+                    name: "Bad Monkey Apes",
                     floorPrice: 7100000000000000000, // WEI
                     currency: "ETH",
                 },
                 {
                     imgUrl: "https://i.seadn.io/gcs/files/10579216d77a7580dd8cf08db689324f.jpg?auto=format&w=1000",
-                    name: "UncleSeize",
+                    name: "Uncle Seize",
                     floorPrice: 63900000000000000000, // WEI
                     currency: "ETH",
                 },
                 {
                     imgUrl: "https://i.seadn.io/gcs/files/e26686121be2c6beaa01de5895736a2c.png?auto=format&w=1000",
-                    name: "paint girl",
+                    name: "Paint girl",
                     floorPrice: 1000000000000000, // WEI
                     currency: "ETH",
                 },
@@ -114,7 +114,7 @@ export function getHomeData() {
                 },
                 {
                     imgUrl: "https://i.seadn.io/gae/k6rXbJJWiBdRlnDj1FmtBh0DPAHb3XTAIHcf6rt-fkPAsoYFZMNVTyKPSxfFEqGWVBb7z2EjYfLAuSrKckxgSkPcmWn2Bcktv8jh2Q?auto=format&w=1000",
-                    name: "off to the races",
+                    name: "Off to the races",
                     floorPrice: 10000000000000, // WEI
                     currency: "ETH",
                 },

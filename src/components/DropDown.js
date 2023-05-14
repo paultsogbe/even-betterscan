@@ -4,7 +4,7 @@ function DropDown(props) {
         <div className="relative">
             <select
                 // className="appearance-none rounded-none  bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
-                className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
+                className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-background1 border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500"
                 id="grid-state"
                 onChange={(e) => props.handleOptionChange(e.target.value)}
                 value={props.selectedOption}
@@ -23,12 +23,12 @@ function DropDown(props) {
                         d="M19 9l-7 7-7-7"
                     />
                 </svg>
-                <option
+                {/* <option
                     value="title"
                     className="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
                 >
-                    {/* {props.name} */}
-                </option>
+                  
+                </option> */}
                 <option value="option1">{props.option1}</option>
                 <option value="option2">{props.option2}</option>
             </select>

@@ -187,8 +187,8 @@ body {
 }
 
 .drop{
-    font-family: 'Manrope';
-    font-style: normal;
+    /* font-family: 'Manrope';
+    font-family: "sans-serif"; */
     font-weight: 500;
     font-size: 16px;
   /* line-height: 22px;   */
@@ -260,7 +260,7 @@ line-height: 46px;
 }
 /* -------stastique------- */
 .number {
-    font-family: 'satoshi';
+    /* font-family: 'satoshi'; */
     background: linear-gradient(152.26deg, #F74545 0%, #3384F5 101.41%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -285,6 +285,7 @@ text-align: center;
     border-radius: 10px;
     padding: 1px;
     border: 0px;
+   
     /* margin-bottom: 0px;
     margin-top: 0px; */
     /* border-image: linear-gradient(to right, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ; */
@@ -293,40 +294,39 @@ text-align: center;
 .box1{
     border-radius: 10px;
     background: white;
-    height: 99%;
-    width: 99%;
+    height: 99.5%;
+    width: 99.8%;
     /* margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 1px; */
+    margin-top: 1px;
 }
 
-.statisique2{
+.statisique2 {
+    border-radius: 10px;
+    padding: 1px;
+    background: linear-gradient(to right, rgba(246, 69, 69, 0.06), rgba(51, 132, 245, 0.06));
+    box-shadow: 0 0 0 1px rgba(246, 69, 69, 0.2), 0 0 0 1px rgba(51, 132, 245, 0.2);
+  }
+  
+  /* .box2 {
+    border-radius: 10px;
+    background: white;
+    height: 99.5%;
+    width: 99.8%;
+    padding: 10px;
+    box-shadow: 0 0 0 1px rgba(246, 69, 69, 1), 0 0 0 1px rgba(51, 132, 245, 1);
+  } */
+  
 
-   
-     
-       
-        /* border-radius: 10px;
-        border-image: linear-gradient(to right, #f66, #39f);
-        background-clip: padding-box;
-        border: 5px solid transparent;
-      }
-      
-      .statisique2:before {
-        content: "";
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        right: -5px;
-        bottom: -5px;
-        z-index: -1;
-        border-image: linear-gradient(to right, #f66, #39f);
-        background-clip: padding-box; */
-      
-      
-
+/* .box {
+    border-bottom: 1px solid linear-gradient(to right, rgba(246, 69, 69, 1), rgba(51, 132, 245, 1));
+    background: linear-gradient(152.26deg, rgba(247, 69, 69, 0.06) 0%, rgba(51, 132, 245, 0.06) 101.41%);
+  }
+   */
 
 
-        /* --------------------------- */
+/* .statisique2{
    
       
     border-radius: 10px;
@@ -336,17 +336,42 @@ text-align: center;
 }
 .box2{
     border-radius: 10px;
-   
-
-
     height: 99%;
     width: 99%;
    
-}
+} */
+
+
+/* .statisique2 {
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(246, 69, 69, 0.06) 0%, rgba(51, 132, 245, 0.06));
+  }
+  
+  .box2 {
+    border-radius: 10px;
+    height: 99%;
+    width: 99%;
+    border-left: 1px solid;
+    border-image: linear-gradient(to right, rgba(246, 69, 69, 1), rgba(51, 132, 245, 1)) 1 0;
+ 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+   */
+  
+  /* .box {
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, rgba(246, 69, 69, 1), rgba(51, 132, 245, 1)) 1 0;
+    /* background-color: white; */
+    /* padding: 10px;
+  } */
+   */
 
 
 .jetons {
-    border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
+    /* border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ; */
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2)) 1;
     font-family: Satoshi;
 font-size: 20px;
 font-weight: 700;
@@ -411,10 +436,18 @@ color: #2C3131;
     background: rgba(160, 163, 189, 0.8);
 }
 
-.collection {
+/* .collection {
     border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2) ) 1 ;
     
+} */
+
+.collection {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to left, rgba(246, 69, 69, 0.2), rgba(51, 132, 245, 0.2)) 1;
 }
+
+
+
 /* .tandance{
     background: white;
     border: 5px;
