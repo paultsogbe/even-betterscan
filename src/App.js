@@ -91,7 +91,7 @@ function App() {
             {/* ---------------------------------------------------- */}
             {/* <Languages /> */}
 
-            <div className=" mx-auto  bg-background1 mycontainer ">
+            <div className=" mx-auto  bg-background1 mycontainer font-sans ">
                 <Header2
                     languageName={languageName}
                     option1="English"
@@ -159,10 +159,10 @@ function App() {
                 </div>
 
                 <div className=" collection flex justify-between items-center content-center border-b pb-4 mb-4  ">
-                    <p className="font-bold font-sans text-xl mb-0">
+                    <p className="font-bold font-sans text-xl mb-0 ">
                         Collection NFT
                     </p>
-                    <div className=" font-sans tandance">
+                    <div className=" font-sans font-bold tandance">
                         <DropDown
                             // name="Tendances"
                             option1="Tendances"

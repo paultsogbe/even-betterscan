@@ -20,10 +20,10 @@ function Nft(props) {
                     /> */}
                 </div>
 
-                <h2 className="text-base font-extra-bold font-sans text-text3 overflow-hidden text-ellipsis">
+                <h2 className="text-base font-extra-bold font-sans text-text3 overflow-hidden text-ellipsis ">
                     {props.title}
                 </h2>
-                <p className="text-sm font-sans font-medium text-text2">
+                <p className="text-sm font-sans font-extra-bold text-text2">
                     {props.description}
                 </p>
             </div>

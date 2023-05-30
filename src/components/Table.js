@@ -1,4 +1,5 @@
 // import { useState, useEffect } from "react";
+// ----------CETTE PARTIE A UNE AFFICHAGE NORMALE
 
 // function Table(props) {
 //     // console.log(props.jeton);
@@ -106,7 +107,7 @@
 
 // export default Table;
 
-// ------------------0ption 2---------------
+// ------------------0ption 2--------CETTE PARTIE S'AFFICHE PAR SECONDE-------
 
 // import { useState, useEffect } from "react";
 
@@ -221,7 +222,7 @@
 
 // export default Table;
 
-// Option 3
+// Option 3---------------CETTE PARTIE DE CODE S' AFFICHE PAR SECONDE(par portion)
 
 import { useState, useEffect } from "react";
 
@@ -286,22 +287,22 @@ function Table(props) {
     return (
         <div>
             {/* Render the select for results per page if you want to keep it */}
-            <table className="w-full  mt-2">
+            <table className="w-full mt-2">
                 <thead>
                     <tr className="text-left">
-                        <th className="text-sm font-light text-text2 w-8 h-5 ">
+                        <th className="text-sm  text-text2 w-8 h-5 font-sans font-medium ">
                             Nom
                         </th>
-                        <th className="text-sm  text-text2 font-medium">
+                        <th className="text-sm  text-text2 font-medium font-sans">
                             Symbole
                         </th>
-                        <th className="text-sm  text-text2 font-medium">
+                        <th className="text-sm  text-text2 font-medium font-sans">
                             Dernier prix
                         </th>
-                        <th className="text-sm  text-text2 font-medium ">
+                        <th className="text-sm  text-text2 font-medium font-sans">
                             Nombre de détenteurs
                         </th>
-                        <th className="text-sm  text-text2 font-medium ">
+                        <th className="text-sm  text-text2 font-medium font-sans">
                             Capitalisation sur Ethereum
                         </th>
                     </tr>
@@ -310,7 +311,7 @@ function Table(props) {
                     {visibleResults.map((el, key) => {
                         return (
                             <tr key={key}>
-                                <td className=" text-base text-text4 flex my-2 mr-20 font-medium ">
+                                <td className=" text-base text-text4 flex my-2 mr-20 font-medium  font-sans">
                                     <img
                                         className="mr-2 w-5 h-5 name"
                                         src={el.img}
@@ -319,17 +320,17 @@ function Table(props) {
                                     {el.name}
                                 </td>
 
-                                <td className="text-sm text-text3 h-6 w-20 symbol font-medium">
+                                <td className="text-sm text-text3 h-6 w-20 symbol font-medium font-sans">
                                     {el.symbol}
                                 </td>
 
-                                <td className="text-sm text-text4 h-6 w-20 price font-medium">
+                                <td className="text-sm text-text4 h-6 w-20 price font-medium font-sans">
                                     {el.price} $
                                 </td>
-                                <td className="text-sm text-text4 h-6 w-20 holders font-medium">
+                                <td className="text-sm text-text4 h-6 w-20 holders font-medium font-sans">
                                     {el.holders}
                                 </td>
-                                <td className="text-sm text-text3 h-6 w-20 capitalize font-medium">
+                                <td className="text-sm text-text3 h-6 w-20 capitalize font-medium font-sans">
                                     {el.onChainMarketCap} $
                                 </td>
                             </tr>

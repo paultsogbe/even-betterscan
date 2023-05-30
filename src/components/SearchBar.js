@@ -5,8 +5,9 @@ function SearchBar() {
     return (
         <div className="flex flex-col items-center mb-40 mt-40">
             {/* <div className=""> */}
-            <h1 className="w-8/12 text-4xl text-center mb-10 paragraphe">
-                Recherchez une <span className="searchBar">transaction </span>
+            <h1 className="w-8/12 text-4xl text-center mb-10 font-sans paragraphe">
+                Recherchez une{" "}
+                <span className="searchBar font-sans">transaction </span>
                 dans la Blockchain Ethereum{" "}
             </h1>
 

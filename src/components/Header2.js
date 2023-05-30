@@ -84,7 +84,7 @@ function Header2(props) {
                     <img className="logo1 h-6" src={logo1} alt="logo1" />
                 </div>
                 <div className="flex items-start flex-col">
-                    <p className="drop ml-5 font-sans ">Besoin d'aide</p>
+                    <p className="drop mr-5 font-sans ">Besoin d'aide</p>
                     {/* Drop down menu */}
                     <div className="relative w-full">
                         <select

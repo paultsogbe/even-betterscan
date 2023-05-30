@@ -29,29 +29,78 @@ export function getHomeData() {
             gazPrice: " (15gwei)", // in GWEI
             lastBlock: "1 650 500",
             lastBlockTime: "2023-02-22T11:00:33.793Z",
-            emission: "-1.13ETH/min", // in ETH/min
+            emission: "-1.13 ETH/min", // in ETH/min
             maxEmissionScale: 2.5,
         },
         collectionsFirstChunk: {
             byTrend: [
                 {
-                    imgUrl: "https://i.seadn.io/gae/duwTKiK5MT5ZD-IgTX_gtScj20XK6yo7Sp3dbexJZRhB6pIM6EUg4tAyUFy1yWnmY8PmcITj2vFTK1RkNGcTSWfquR3qQ2M7PgG-Uw?auto=format&w=256",
-                    name: "Bad Monkey Apes",
-                    floorPrice: 7100000000000000000, // WEI
+                    imgUrl: "https://i.seadn.io/gcs/files/9a2e372bbda133246295543f3633a949.jpg?auto=format&dpr=1&w=256",
+                    name: " Monkey Ape",
+                    floorPrice: 9800000000000000000, // WEI
                     currency: "ETH",
                 },
                 {
-                    imgUrl: "https://i.seadn.io/gcs/files/10579216d77a7580dd8cf08db689324f.jpg?auto=format&w=1000",
-                    name: "Uncle Seize",
-                    floorPrice: 63900000000000000000, // WEI
+                    imgUrl: "https://i.seadn.io/gae/JjzAmt556x6BY_Cgy6mUH26UDrhFrHQLcFbEVdCU01V2WKqaKQl-G-wJ7Vj8xsvTw2kVLsdR7eCqoScguPEUwAN3KUHUwm-ZrtuF6w?auto=format&dpr=1&w=384",
+                    name: "Moon fall",
+                    floorPrice: 1000000000000000000, // WEI
                     currency: "ETH",
                 },
+                {
+                    imgUrl: "https://i.seadn.io/gae/lhGu0apzMSfQwijQu7CqXvnFO1LqVf7Hku8xljtyHFSY4ufzLOGDA3LX9ahnm4O3RuLxB8FsfThfnpKiG6uUEOmxF7oaXnvyp1RiPbs?auto=format&dpr=1&w=1000",
+                    name: "Monkey Sun",
+                    floorPrice: 57000000000000000000, // WEI
+                    currency: "ETH",
+                },
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/47010146d8d22127d24d1aa0bf32a1eb.jpg?auto=format&dpr=1&w=1000",
+                    name: "Wired Human",
+                    floorPrice: 80000000000000000000, // WEI
+                    currency: "ETH",
+                },
+
                 {
                     imgUrl: "https://i.seadn.io/gcs/files/e26686121be2c6beaa01de5895736a2c.png?auto=format&w=1000",
                     name: "Paint girl",
                     floorPrice: 1000000000000000, // WEI
                     currency: "ETH",
                 },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/rw0EgUZecZ7Z8XsGr76Fr8vG_TuK53gY3V8T7kwfoYzCKzVSNVZagFOcHQvqaiu6FQYTUUNJR2SgWetzlaWnfnfmneDPU2Uq5qJUMQ?auto=format&dpr=1&w=1000",
+                    name: "Race-To-Go",
+                    floorPrice: 7100000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/GfPAPMX_Nl_hj-i0kC57QItUJu2_YmorVZpjyY5GB7n14Z_VxAs6fEszWbAD0zIgVb1mdA24UVzwjfQJX5gQAm2CqJnbyUCwmAsHtw?auto=format&dpr=1&w=256",
+                    name: " Girlies NFT",
+                    floorPrice: 14900000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/l2yU9czv-mF0mxIxQ2KolM99m6cdiAxQn3fjVnEIYReYe1IzzD_MDkOF1klfyeI3MYi3Kb6xfa67T-cBX23eziqKNe8AiMhDWgso?auto=format&dpr=1&w=384",
+                    name: "Monkey king Sun Wukong",
+                    floorPrice: 100000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gae/EPIWT9QicYKA5EZ9tejy_xQ31bEgvWhIxKk8pJSj1wTE7Aky5Pq1IH1SteDdXcVaFCau-tDafWMFgZ2wfOtc1ipB10sdyDZH-2WG?auto=format&dpr=1&w=1000",
+                    name: "The Black Girl NFT",
+                    floorPrice: 2500000000000000000, // WEI
+                    currency: "ETH",
+                },
+
+                {
+                    imgUrl: "https://i.seadn.io/gcs/files/10579216d77a7580dd8cf08db689324f.jpg?auto=format&w=1000",
+                    name: "Uncle Seize",
+                    floorPrice: 63900000000000000000, // WEI
+                    currency: "ETH",
+                },
+
                 {
                     imgUrl: "https://i.seadn.io/gae/IMdCkRdMeq9RX2SicFa_dFGH92cZXN7BDnysUmh3Y_5CFU4ffOesYYGNvL1lk_TW8RwbzUacM8DV1RsqWmAT_y9-xHEz728IgKm5cqQ?auto=format&w=1000",
                     name: "Astro Monkey King #31",

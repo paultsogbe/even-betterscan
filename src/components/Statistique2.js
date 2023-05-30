@@ -6,7 +6,7 @@ function Statistique2(props) {
             <div className="box2 content-center grow-0 flex justify-center items-center rounded-md body-font font-sans">
                 <div className="box">
                     <div className="flex  items-baseline justify-between bg-bac">
-                        <p className="text-text1 text-xl mb-4 ml-4  font-medium ">
+                        <p className="text-text1 text-xl mb-4 ml-4 mr-20  font-medium ">
                             {props.text}
                         </p>
                         <p className="text-slate-500 ml-6 font-medium">
@@ -15,7 +15,7 @@ function Statistique2(props) {
                     </div>
 
                     <div className="flex items-baseline">
-                        <h2 className=" font-bold text-3xl number  mr-8 ml-4 h-10 font-satoshi">
+                        <h2 className=" font-bold text-3xl number  mr-8 ml-4 h-10 font-sans">
                             {" "}
                             {props.number}
                         </h2>

@@ -237,7 +237,7 @@ color: #839BBB;
 /* ----------------------- */
 
 .paragraph{
-    font-family: 'Satoshi';
+    /* font-family: 'Satoshi'; */
     font-style: normal;
     font-weight: 700;
     font-size: 38px;
@@ -252,7 +252,7 @@ background: linear-gradient(152.26deg, #F74545 0%, #3384F5 101.41%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 text-fill-color: transparent;
-font-family: 'satoshi';
+/* font-family: 'satoshi'; */
 font-weight: 800;
 font-size: 34px;
 line-height: 46px;
@@ -383,7 +383,7 @@ text-align: center; */
 /* -------partie jetons */
 
 .symbol{
-    font-family: 'Satoshi';
+   
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -400,7 +400,7 @@ line-height: 19px;
 color: rgba(44, 49, 49, 0.8);
 }
 .holders{
-    font-family: 'Satoshi';
+   
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -408,7 +408,7 @@ line-height: 19px;
 color: rgba(44, 49, 49, 0.8);
 }
 .capitalize{
-    font-family: 'Satoshi';
+   
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -417,7 +417,7 @@ line-height: 19px;
 color: #2A3B51;
 }
 .name{
-    font-family: 'Satoshi';
+    
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
