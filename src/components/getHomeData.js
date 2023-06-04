@@ -29,7 +29,7 @@ export function getHomeData() {
             gazPrice: " (15gwei)", // in GWEI
             lastBlock: "1 650 500",
             lastBlockTime: "2023-02-22T11:00:33.793Z",
-            emission: "-1.13 ETH/min", // in ETH/min
+            emission: "-1.13", // in ETH/min
             maxEmissionScale: 2.5,
         },
         collectionsFirstChunk: {
