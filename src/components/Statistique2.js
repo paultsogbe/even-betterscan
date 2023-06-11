@@ -15,7 +15,7 @@ function Statistique2(props) {
                     </div>
 
                     <div className="flex items-baseline">
-                        <h2 className=" font-bold text-3xl number  mr-8 ml-4 h-10 font-sans">
+                        <h2 className=" number text-3xl mr-8 ml-4 h-10 font-sans font-bold">
                             {" "}
                             {props.number}
                         </h2>

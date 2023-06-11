@@ -11,6 +11,7 @@ import svg from "./assets/images/Rectangle99.png";
 
 import "./App.css";
 import DropDown from "./components/DropDown";
+import DropDown2 from "./components/DropDown2";
 import Languages from "./components/Languages";
 import Header from "./components/Header";
 import Header2 from "./components/Header2";
@@ -49,12 +50,22 @@ function App() {
     const [jeton, setJeton] = useState([]);
     const [volume, setVolume] = useState([]);
     const [language, setLanguage] = useState([]);
+    const [alltime, setAlltime] = useState([]);
 
     // const [name, setName] = useState("Capitalization");
+    // CAPITALISATION
     const [selectedOption, setSelectedOption] = useState("title"); // default selected option is title
     const handleOptionChange = (option) => {
         setSelectedOption(option);
     };
+
+    // TENDANCE
+    const [tendanceOption, setTendanceOption] = useState("title"); // default selected option is title
+    const handleTendenceOptionChange = (option) => {
+        setTendanceOption(option);
+    };
+
+    // LANGUAGE
     const [languageName] = useState("Choissisez votre langue");
     const [selectedOptionLanguage, setSelectedOptionLanguage] =
         useState("title"); // default selected oprion is title
@@ -66,14 +77,17 @@ function App() {
         let result = await getHomeData();
         return result;
     }
+
     let newData;
     async function doTask() {
         let data = await getResult();
         setData(data.collectionsFirstChunk.byTrend);
+        setAlltime(data.collectionsFirstChunk.allTime);
         setStat(data.stats);
         setJeton(data.tokensFirstChunk.byMarketCap);
         setVolume(data.tokensFirstChunk.byVolume);
         setLanguage(data.topBar.language);
+
         // console.log(newData);
         return newData;
     }
@@ -83,6 +97,7 @@ function App() {
         doTask();
         console.log(data);
         console.log(jeton);
+        console.log(alltime);
     }, []);
 
     return (
@@ -151,28 +166,40 @@ function App() {
                         <Statistique3
                             text="Émission"
                             number={stat.emission}
-                            time="Déflation(mensuel)"
-                            // svg={svg}
+                            time="Déflation (mensuel)"
                         />
                     )}
                     {!stat && <div>Loading</div>}
                 </div>
 
                 <div className=" collection flex justify-between items-center content-center border-b pb-4 mb-4  ">
-                    <p className="font-bold font-sans text-xl mb-0 ">
+                    <p className="font-extrabold font-sans text-xl mb-0 ">
                         Collection NFT
                     </p>
                     <div className=" font-sans font-bold tandance">
-                        <DropDown
+                        <DropDown2
                             // name="Tendances"
-                            option1="Tendances"
-                            option2="Tendance2"
+                            option1="By Trend"
+                            option2="All Time"
+                            tendanceOption={tendanceOption}
+                            setTendanceOption={setTendanceOption}
+                            handleTendenceOptionChange={
+                                handleTendenceOptionChange
+                            }
                         />
                     </div>
                 </div>
 
                 {/* <div className="flex justify-between mt-5"></div> */}
-                <ScrollCarousel data={data} />
+                {data ? (
+                    <ScrollCarousel
+                        data={data}
+                        alltime={alltime}
+                        tendanceOption={tendanceOption}
+                    />
+                ) : (
+                    <div>Isloading</div>
+                )}
 
                 <div className="flex justify-between items-center content-center border-b pb-4 mb-4 jetons">
                     <p className="font-bold text-xl font-sans ">Jetons</p>

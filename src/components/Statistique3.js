@@ -16,7 +16,7 @@ function Statistique(props) {
                         <p className="text-text1 text-xl mb-2 ml-4 font-medium">
                             {props.text}
                         </p>
-                        <p className="text-slate-500 font-medium text-base">
+                        <p className="text-slate-500 ml-4 font-medium text-base">
                             {props.time}
                         </p>
                     </div>
@@ -105,7 +105,7 @@ function Statistique(props) {
                         )}
                     </div>
                     <div className="flex items-center">
-                        <h2 className="number text-4xl ml-4 h-10 font-sans font-bold">
+                        <h2 className="number text-3xl ml-4 h-10 font-sans font-bold">
                             {sign} {Math.abs(props.number)}
                             {" ETH/min"} {/* {props.number} */}
                         </h2>

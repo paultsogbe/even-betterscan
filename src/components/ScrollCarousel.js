@@ -489,9 +489,7 @@
 //         <div className="flex flex-col bg-background1  m-auto p-auto mb-20 ">
 //             <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
 //                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
-
 //                     {currentResults.map((el, i) => (
-
 //                         <div className="inline-block px-3" key={i}>
 //                             <div className="w-64 h-80 max-w-xs overflow-hidden">
 //                                 <Nft
@@ -514,87 +512,7 @@
 
 // export default ScrollCarousel;
 
-//--option6-- ---- CETTE PARTIE S' AFFICHE PAR SECONDE ET PAR SEGMENT--ET AVEC UN PLACEHOLDER--------------------------
-
-import React, { useState, useRef, useCallback, useEffect } from "react";
-import Nft from "./Nft";
-
-function ScrollCarousel(props) {
-    const [currentPage, setCurrentPage] = useState(1);
-    const [resultsPerPage, setResultsPerPage] = useState(5);
-    const [isLoading, setIsLoading] = useState(false);
-
-    const observer = useRef();
-
-    const lastResultRef = useCallback(
-        (node) => {
-            if (observer.current) {
-                observer.current.disconnect();
-            }
-
-            observer.current = new IntersectionObserver((entries) => {
-                if (entries[0].isIntersecting && !isLoading) {
-                    setIsLoading(true);
-                    setTimeout(() => {
-                        setCurrentPage((currentPage) => currentPage + 1);
-                        setIsLoading(false);
-                    }, 500);
-                }
-            });
-
-            if (node) {
-                observer.current.observe(node);
-            }
-        },
-        [setCurrentPage, setIsLoading, isLoading]
-    );
-
-    useEffect(() => {
-        setCurrentPage(1);
-    }, [props.data]);
-
-    const currentResults = props.data.slice(0, currentPage * resultsPerPage);
-
-    return (
-        <div className="flex flex-col bg-background1  m-auto p-auto mb-20 ">
-            <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
-                <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
-                    {currentResults.map((el, i) => {
-                        // cette fonction verifie si l'élément actuelle est le dernier élément  visible et que islaording est vraie.si cest le cas:(un composant placeholder)
-                        if (i === currentResults.length - 1 && isLoading) {
-                            return (
-                                <div className="inline-block px-3" key={i}>
-                                    {/* Placeholder component */}
-                                    <div className="w-64 h-64 render-s-3xl max-w-xs bg-gray-300"></div>
-                                </div>
-                            );
-                        }
-
-                        return (
-                            <div className="inline-block px-3" key={i}>
-                                <div className="w-64 h-64 render-s-3xl max-w-xs overflow-hidden">
-                                    <Nft
-                                        image={el.imgUrl}
-                                        title={el.name}
-                                        description="Plancher: 0.19 ETH"
-                                    />
-                                </div>
-                            </div>
-                        );
-                    })}
-                    ''
-                    <div className="inline-block px-3" ref={lastResultRef}>
-                        {/* Empty div used as a reference for the last visible result */}
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-export default ScrollCarousel;
-
-//--option6 Bis-- ---- CETTE PARTIE S' AFFICHE PAR SECONDE ET PAR SEGMENT--ET AVEC DES PLACEHOLDER----
+//--option6 Bis-- ---- CETTE PARTIE S' AFFICHE PAR SECONDE ET PAR SEGMENT--ET AVEC UN PLACEHOLDER--------------------------
 
 // import React, { useState, useRef, useCallback, useEffect } from "react";
 // import Nft from "./Nft";
@@ -635,9 +553,87 @@ export default ScrollCarousel;
 
 //     const currentResults = props.data.slice(0, currentPage * resultsPerPage);
 
-//     const placeholderCount = isLoading
-//         ? resultsPerPage - currentResults.length
-//         : 0;
+//     return (
+//         <div className="flex flex-col bg-background1  m-auto p-auto mb-20 ">
+//             <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
+//                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+//                     {currentResults.map((el, i) => {
+//                         // cette fonction verifie si l'élément actuelle est le dernier élément  visible et que islaording est vraie.si cest le cas:(un composant placeholder)
+//                         if (i === currentResults.length - 1 && isLoading) {
+//                             return (
+//                                 <div className="inline-block px-3" key={i}>
+//                                     {/* Placeholder component */}
+//                                     <div className="w-64 h-64 render-s-3xl max-w-xs bg-gray-300"></div>
+//                                 </div>
+//                             );
+//                         }
+
+//                         return (
+//                             <div className="inline-block px-3" key={i}>
+//                                 <div className="w-64 h-64 render-s-3xl max-w-xs overflow-hidden">
+//                                     <Nft
+//                                         image={el.imgUrl}
+//                                         title={el.name}
+//                                         description="Plancher: 0.19 ETH"
+//                                     />
+//                                 </div>
+//                             </div>
+//                         );
+//                     })}
+//                     ''
+//                     <div className="inline-block px-3" ref={lastResultRef}>
+//                         {/* Empty div used as a reference for the last visible result */}
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default ScrollCarousel;
+
+// -------------OPTION 8-------------
+
+// import React, { useState, useRef, useCallback, useEffect } from "react";
+// import Nft from "./Nft";
+
+// function ScrollCarousel(props) {
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const [resultsPerPage, setResultsPerPage] = useState(5);
+//     const [isLoading, setIsLoading] = useState(false);
+
+//     const observer = useRef();
+
+//     const lastResultRef = useCallback(
+//         (node) => {
+//             if (observer.current) {
+//                 observer.current.disconnect();
+//             }
+
+//             observer.current = new IntersectionObserver((entries) => {
+//                 if (entries[0].isIntersecting && !isLoading) {
+//                     setIsLoading(true);
+//                     setTimeout(() => {
+//                         setCurrentPage((currentPage) => currentPage + 1);
+//                         setIsLoading(false);
+//                     }, 500);
+//                 }
+//             });
+
+//             if (node) {
+//                 observer.current.observe(node);
+//             }
+//         },
+//         [setCurrentPage, setIsLoading, isLoading]
+//     );
+
+//     useEffect(() => {
+//         setCurrentPage(1);
+//     }, [props.data]);
+
+//     const currentResults = props.data.slice(0, currentPage * resultsPerPage);
+
+//     const placeholderCount = isLoading ? currentResults.length : 0; // Afficher le même nombre de placeholders que le nombre de NFT en train de s'afficher
 //     const placeholders = Array.from({ length: placeholderCount }).map(
 //         (_, index) => (
 //             <div className="inline-block px-3" key={`placeholder-${index}`}>
@@ -648,9 +644,9 @@ export default ScrollCarousel;
 //     );
 
 //     return (
-//         <div className="flex flex-col bg-background1  m-auto p-auto mb-20 ">
-//             <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
-//                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+//         <div className="flex flex-col bg-background1 m-auto p-auto mb-20">
+//             <div className="flex pb-10 carrousel">
+//                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
 //                     {currentResults.map((el, i) => (
 //                         <div className="inline-block px-3" key={i}>
 //                             <div className="w-64 h-80 max-w-xs overflow-hidden">
@@ -675,3 +671,320 @@ export default ScrollCarousel;
 // }
 
 // export default ScrollCarousel;
+
+// --------------ca fonction ce cod----------------------------
+// import React, { useState, useRef, useCallback, useEffect } from "react";
+
+// import Nft from "./Nft";
+
+// function Placeholder() {
+//     return (
+//         <div className="inline-block px-3">
+//             <div className="w-64 h-64 max-w-xs bg-gray-200 animate-pulse"></div>
+//         </div>
+//     );
+// }
+
+// function ScrollCarousel(props) {
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const [resultsPerPage, setResultsPerPage] = useState(5);
+//     const [isLoading, setIsLoading] = useState(false);
+//     const [currentResults, setCurrentResults] = useState([]);
+
+//     console.log(props.selectedOption);
+
+//     const observer = useRef();
+
+//     const lastResultRef = useCallback(
+//         (node) => {
+//             if (observer.current) {
+//                 observer.current.disconnect();
+//             }
+
+//             observer.current = new IntersectionObserver((entries) => {
+//                 if (entries[0].isIntersecting && !isLoading) {
+//                     setIsLoading(true);
+//                     setTimeout(() => {
+//                         setCurrentPage((currentPage) => currentPage + 1);
+//                         setIsLoading(false);
+//                     }, 3000); // Modify the delay duration here (in milliseconds)
+//                 }
+//             });
+
+//             if (node) {
+//                 observer.current.observe(node);
+//             }
+//         },
+//         [setCurrentPage, setIsLoading, isLoading]
+//     );
+
+//     useEffect(() => {
+//         setCurrentPage(1);
+//     }, [props.data, props.alltime]);
+
+//     useEffect(() => {
+//         setCurrentResults(() => {
+//             if (
+//                 props.selectedOption === "option1" ||
+//                 props.selectedOption === "title"
+//             ) {
+//                 return props.data.slice(0, currentPage * resultsPerPage);
+//             } else if (props.selectedOption === "option2") {
+//                 return props.alltime.slice(0, currentPage * resultsPerPage);
+//             }
+//             return [];
+//         });
+//     }, [
+//         currentPage,
+//         props.data,
+//         props.alltime,
+//         props.selectedOption,
+//         resultsPerPage,
+//     ]);
+
+//     console.log(currentResults);
+
+//     const placeholders = Array(resultsPerPage)
+//         .fill()
+//         .map((_, index) => <Placeholder key={index} />);
+
+//     return (
+//         <div className="flex flex-col bg-background1 m-auto p-auto mb-20">
+//             <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
+//                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
+//                     {isLoading ? placeholders : null}
+//                     {currentResults.map((el, i) => (
+//                         <div className="inline-block px-3" key={i}>
+//                             <div className="w-64 h-80 max-w-xs overflow-hidden">
+//                                 <Nft
+//                                     image={el.imgUrl}
+//                                     title={el.name}
+//                                     description="Plancher: 0.19 ETH"
+//                                 />
+//                             </div>
+//                         </div>
+//                     ))}
+//                     <div className="inline-block px-3" ref={lastResultRef}>
+//                         {/* Empty div used as a reference for the last visible result */}
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default ScrollCarousel;
+
+// -----------9option-----------------------------
+
+// import React, { useState, useRef, useCallback, useEffect } from "react";
+
+// import Nft from "./Nft";
+
+// function Placeholder() {
+//     return (
+//         <div className="inline-block px-3">
+//             <div className="w-64 h-64 max-w-xs bg-gray-200 animate-pulse"></div>
+//         </div>
+//     );
+// }
+
+// function ScrollCarousel(props) {
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const [resultsPerPage, setResultsPerPage] = useState(5);
+//     const [isLoading, setIsLoading] = useState(false);
+//     const [currentResults, setCurrentResults] = useState([]);
+
+//     console.log(props.selectedOption);
+
+//     const observer = useRef();
+
+//     const lastResultRef = useCallback(
+//         (node) => {
+//             if (observer.current) {
+//                 observer.current.disconnect();
+//             }
+
+//             observer.current = new IntersectionObserver((entries) => {
+//                 if (entries[0].isIntersecting && !isLoading) {
+//                     setIsLoading(true);
+//                     setTimeout(() => {
+//                         setCurrentPage((currentPage) => currentPage + 1);
+//                         setIsLoading(false);
+//                     }, 3000); // Modify the delay duration here (in milliseconds)
+//                 }
+//             });
+
+//             if (node) {
+//                 observer.current.observe(node);
+//             }
+//         },
+//         [setCurrentPage, setIsLoading, isLoading]
+//     );
+
+//     useEffect(() => {
+//         setCurrentPage(1);
+//     }, [props.data, props.alltime]);
+
+//     useEffect(() => {
+//         setCurrentResults(() => {
+//             if (
+//                 props.selectedOption === "option1" ||
+//                 props.selectedOption === "title"
+//             ) {
+//                 return props.data.slice(0, currentPage * resultsPerPage);
+//             } else if (props.selectedOption === "option2") {
+//                 return props.alltime.slice(0, currentPage * resultsPerPage);
+//             }
+//             return [];
+//         });
+//     }, [
+//         currentPage,
+//         props.data,
+//         props.alltime,
+//         props.selectedOption,
+//         resultsPerPage,
+//     ]);
+
+//     console.log(currentResults);
+
+//     const placeholders = Array(7)
+//         .fill()
+//         .map((_, index) => <Placeholder key={index} />);
+
+//     return (
+//         <div className="flex flex-col bg-background1 m-auto p-auto mb-20">
+//             <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
+//                 <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10">
+//                     {isLoading ? placeholders : null}
+//                     {currentResults.map((el, i) => (
+//                         <div className="inline-block px-3" key={i}>
+//                             <div className="w-64 h-80 max-w-xs overflow-hidden">
+//                                 <Nft
+//                                     image={el.imgUrl}
+//                                     title={el.name}
+//                                     description="Plancher: 0.19 ETH"
+//                                 />
+//                             </div>
+//                         </div>
+//                     ))}
+//                     <div className="inline-block px-3" ref={lastResultRef}>
+//                         {/* Empty div used as a reference for the last visible result */}
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     );
+// }
+
+// export default ScrollCarousel;
+
+// ------------------------------------------
+import React, { useState, useRef, useCallback, useEffect } from "react";
+import Nft from "./Nft";
+
+function Placeholder() {
+    return (
+        <div className="inline-block px-3">
+            <div className="w-64 h-64 max-w-xs bg-gray-200 animate-pulse"></div>
+        </div>
+    );
+}
+
+function ScrollCarousel(props) {
+    const [currentPage, setCurrentPage] = useState(1);
+    const [resultsPerPage, setResultsPerPage] = useState(7);
+    const [isLoading, setIsLoading] = useState(false);
+    const [currentResults, setCurrentResults] = useState([]);
+
+    console.log(props.tendanceOption);
+
+    const observer = useRef();
+
+    const lastResultRef = useCallback(
+        (node) => {
+            if (observer.current) {
+                observer.current.disconnect();
+            }
+
+            observer.current = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting && !isLoading) {
+                    setIsLoading(true);
+                    setTimeout(() => {
+                        setCurrentPage((currentPage) => currentPage + 1);
+                        setIsLoading(false);
+                    }, 3000); // Modify the delay duration here (in milliseconds)
+                }
+            });
+
+            if (node) {
+                observer.current.observe(node);
+            }
+        },
+        [setCurrentPage, setIsLoading, isLoading]
+    );
+
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [props.data, props.alltime]);
+
+    useEffect(() => {
+        setCurrentResults(() => {
+            if (
+                props.tendanceOption === "option1" ||
+                props.tendanceOption === "title"
+            ) {
+                return props.data.slice(0, currentPage * resultsPerPage);
+            } else if (props.tendanceOption === "option2") {
+                return props.alltime.slice(0, currentPage * resultsPerPage);
+            }
+            return [];
+        });
+    }, [
+        currentPage,
+        props.data,
+        props.alltime,
+        props.tendanceOption,
+        resultsPerPage,
+    ]);
+
+    console.log(currentResults);
+
+    const placeholders = Array(currentResults.length)
+        .fill()
+        .map((_, index) => <Placeholder key={index} />);
+
+    return (
+        <div className="flex flex-col bg-background1 m-auto p-auto mb-20">
+            <div className="flex overflow-x-scroll pb-10 hide-scroll-bar carrousel">
+                <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 relative">
+                    {isLoading ? placeholders : null}
+                    {currentResults.map((el, i) => (
+                        <div className="inline-block px-3" key={i}>
+                            <div className="w-64 h-80 max-w-xs overflow-hidden">
+                                <Nft
+                                    image={el.imgUrl}
+                                    title={el.name}
+                                    description="Plancher: 0.19 ETH"
+                                />
+                            </div>
+                        </div>
+                    ))}
+                    <div className="inline-block px-3">
+                        {/* Placeholder for left scroll */}
+                    </div>
+                    {currentResults.length > 0 && (
+                        <div className="inline-block px-3">
+                            {/* Placeholder for right scroll */}
+                        </div>
+                    )}
+                    <div className="inline-block px-3" ref={lastResultRef}>
+                        {/* Empty div used as a reference for the last visible result */}
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default ScrollCarousel;

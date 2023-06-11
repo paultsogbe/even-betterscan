@@ -83,12 +83,12 @@ function Header2(props) {
                     <img className="logo h-6 mr-4" src={logo} alt="logo" />
                     <img className="logo1 h-6" src={logo1} alt="logo1" />
                 </div>
-                <div className="flex items-start flex-col">
-                    <p className="drop mr-5 font-sans ">Besoin d'aide</p>
+                <div className="flex items-center flex-col">
+                    <p className="drop px-1  font-sans  ">Besoin d'aide</p>
                     {/* Drop down menu */}
-                    <div className="relative w-full">
+                    <div className="relative w-full ">
                         <select
-                            className="inline-flex justify-center w-full px-4  text-sm font-medium text-text2 bg-gray-50 rounded-md  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-50 "
+                            className="px-0 inline-flex justify-start w-full text-sm font-medium text-text2 bg-gray-50 rounded-md  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-gray-50 "
                             id="grid-state"
                             onChange={(e) =>
                                 props.handleOptionLanguageonChange(
@@ -99,7 +99,7 @@ function Header2(props) {
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                className="w-5 h-5 ml-2 -mr-1"
+                                className="w-5 h-5 ml-20 -mr-1"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
